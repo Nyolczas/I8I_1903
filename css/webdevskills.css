@@ -1,0 +1,11 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.chart-container {
+    max-width: 400px;
+    min-height: 500px;
+}
