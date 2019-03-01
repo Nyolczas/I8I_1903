@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/webdevskills.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
 </head>
@@ -26,7 +26,7 @@
                                 <a id="link" class="link" href="fooldal.html">főoldal<span></span><span></span></a>
                             </li>
                             <li>
-                                <a class="link active" href="webdevskills.html">webfejlesztés<span></span><span></span></a>
+                                <a class="link" href="webdevskills.html">webfejlesztés<span></span><span></span></a>
                             </li>
                             <li>
                                 <a class="link" href="concept.html">concept és storyboard<span></span><span></span></a>
@@ -70,38 +70,7 @@
         </header>
 
         <!-- content -->
-        <main>
-            <div class="main-container">
-                <div class="chart-container">
-                    <div  style="position: relative;">
-                        <canvas id="myChart" width="400" height="400"></canvas>
-                    </div>
-                </div>
-
-                <div class="text-container">
-                    <h1>Programozás, webfejlesztés</h1>
-                    <p>2012-ben kezdtem ismerkedni a programozásal,
-                        2017-től pedig aktívan webfejlesztést tanulok.
-                        </p>
-                        <p>Mára stabil Frontend fejlesztői ismeretekkel rendelkezem
-                        és a szerver oldali programozástól sem riadok vissza.</p>
-                        <p>
-                        Ismereteimet folyamatosan bővítem, napi rendszerességgel tanulok.
-                        A célom, hogy tudásom a legújabb webes technológiákból, mindig naprakész legyen.
-                    </p>
-                    <div class="button button-ref">
-                        <span class="button__mask"></span>
-                        <span class="button__text">
-                            <h1> <i class="fab fa-github"></i> Referenciák</h1>
-                        </span>
-                        <span class="button__text button__text--bis">
-                            <h1> <i class="fab fa-github"></i> Referenciák</h1>
-                        </span>
-                    </div>
-
-                </div>
-            </div>
-        </main>
+        
         <!-- content - end -->
 
         <footer>
@@ -113,42 +82,9 @@
             </div>
         </footer>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    
     <script src="js/menu.js"></script>
-    <script>
-        //--- chart js 
-        var ctx = document.getElementById("myChart").getContext('2d');
-        var myChart = new Chart(ctx, {
-            type: 'horizontalBar',
-            data: {
-                labels: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "WordPress", "PHP", "React",
-                    "Angular", "ES6", "SASS",
-                    "Node.js", "Express.js", "MySQL", "Git", "Visual Basic", "C#",
-                    "ASP.NET", "Java", "Python", "Django"
-                ],
-                datasets: [{
-                    label: 'nyelvtudás: ',
-                    data: [99, 97, 91, 57, 75, 53, 63, 10, 7, 80, 29, 54, 48, 35, 86, 83, 67, 28, 21,
-                        44, 33
-                    ],
-                    backgroundColor: 'rgba(0, 190, 143, 0.45)',
-                    borderColor: 'rgb(0, 190, 143)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true
-                        }
-                    }]
-                },
-                responsive: true,
-                maintainAspectRatio: false,
-            }
-        });
-    </script>
+
 </body>
 
 </html>
