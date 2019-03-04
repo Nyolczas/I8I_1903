@@ -55,9 +55,15 @@ nav:hover .menu__mask {
     height: 100vh;
     background-color: var(--menuHover);
     border-radius: 0px;
-    margin-right: calc((100vw - 1140px) * -0.5);
+    
     z-index: 0;
    ;
+}
+
+@media screen and (min-width: 1140px) {
+    .anima {
+        margin-right: calc((100vw - 1140px) * -0.5);
+    }
 }
 
 @media screen and (min-width: 480px) {
