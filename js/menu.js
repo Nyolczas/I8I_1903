@@ -1,5 +1,4 @@
 var e = document.getElementById('menuMask');
-
 function change(x) {
     //-- hide light fx
     if(e.style.display == 'none')
@@ -21,3 +20,6 @@ function showLightFx(){
 
 //--- print the year into the footer
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+
+

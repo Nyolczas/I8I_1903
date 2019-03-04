@@ -40,6 +40,12 @@ body {
     margin-right: 100px;
 }
 
+@media screen and (max-width: 600px) {
+    .contentwrapper {
+        margin:0;
+    }
+}
+
 .header {
     height: 20vh;
     max-height: 280px;
