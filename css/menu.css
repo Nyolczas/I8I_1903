@@ -55,6 +55,8 @@ nav:hover .menu__mask {
     height: 100vh;
     background-color: var(--menuHover);
     border-radius: 0px;
+    margin-right: calc((100vw - 1140px) * -0.5);
+   ;
 }
 
 @media screen and (min-width: 480px) {
@@ -64,16 +66,29 @@ nav:hover .menu__mask {
 }
 
 .nemani {
-    margin: 20px;
+    margin-top: 20px;
     width: 66px;
     height: 66px;
     background: var(--menuBg);
     border-radius: 33px;
 }
 
+.taki {
+    position: absolute;
+    top:20px;
+    width: 66px;
+    height: 66px;
+    background: var(--menuHover);
+    border-radius: 33px;
+}
+
+nav:hover .taki {
+    background: var(--menuBg);
+}
+
 .hambi {
     position: absolute;
-    right: 34px;
+    right: 14px;
     top: 33px;
     display: inline-block;
     cursor: pointer;
