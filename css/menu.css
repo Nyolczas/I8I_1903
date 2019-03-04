@@ -56,6 +56,7 @@ nav:hover .menu__mask {
     background-color: var(--menuHover);
     border-radius: 0px;
     margin-right: calc((100vw - 1140px) * -0.5);
+    z-index: 0;
    ;
 }
 
@@ -71,6 +72,7 @@ nav:hover .menu__mask {
     height: 66px;
     background: var(--menuBg);
     border-radius: 33px;
+    z-index: 4;
 }
 
 .taki {
@@ -80,10 +82,14 @@ nav:hover .menu__mask {
     height: 66px;
     background: var(--menuHover);
     border-radius: 33px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
 nav:hover .taki {
     background: var(--menuBg);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
 .hambi {
