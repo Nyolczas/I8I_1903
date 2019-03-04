@@ -26,6 +26,14 @@ body {
     color: var(--textClr);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
 .widthwrapper {
     width: 100vw;
     max-width: 1140px;
@@ -36,13 +44,13 @@ body {
 }
 
 .contentwrapper {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
 @media screen and (max-width: 600px) {
     .contentwrapper {
-        margin:0;
+        margin:5px;
     }
 }
 
@@ -60,6 +68,43 @@ body {
         rgba(0, 150, 173, 0.5),
         rgba(0, 94, 46, 0.5)),
         url(../img/waterfall.jpg);
+}
+
+.head-container {
+    display: flex;
+    /* width: 95vw; */
+    max-width: 1140px;
+    /* border: 1px solid red; */
+}
+
+#logo8 {
+    max-width: 120px;
+}
+
+.nev-container {
+    font-size: 85%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1.2rem;
+}
+
+@media screen and (max-width: 360px)
+{
+    .nev-container h1 {
+        font-size: 95%;
+    } 
+
+    .nev-container p {
+        font-size: 85%;
+    }  
+}
+
+.menuspacer {
+    width: 80px;
+    height: 10px;
+    /* border: 1px solid black; */
 }
 
 /* footer */

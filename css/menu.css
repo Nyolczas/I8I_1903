@@ -2,7 +2,6 @@
     --spantav: 15px;
 }
 
-
 nav {
     direction: rtl;
     position: relative;
@@ -31,10 +30,6 @@ nav {
     z-index: 2;
     overflow: hidden;
 }
-
-/* nav:hover #box1 {
-    opacity: 0.88;
-  } */
 
 nav:hover .menu__mask {
     -webkit-animation: menu-fx .3s ease-out;
