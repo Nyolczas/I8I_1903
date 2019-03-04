@@ -1,0 +1,69 @@
+/* css reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    --menuBg: rgb(0, 190, 143);
+    --lightBg: rgba(0, 190, 142, 0.25);
+    --midBg: rgb(0, 118, 135);
+    --darkBg: rgb(0, 81, 65);
+    --menuHover: rgb(0, 19, 8);
+    --bordo: rgb(124, 23, 70);
+    --feher: rgb(255, 255, 255);
+    --szurke: rgb(160, 160, 160);
+    --textClr: rgba(0, 0, 0, 0.75);
+}
+
+body {
+    font-size: 100%;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    color: var(--textClr);
+}
+
+.widthwrapper {
+    width: 100vw;
+    max-width: 1140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+}
+
+.contentwrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header {
+    height: 20vh;
+    max-height: 280px;
+    min-height: 120px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+.header-fooldal {
+    background-image: linear-gradient(to right,
+        rgba(0, 150, 173, 0.5),
+        rgba(0, 94, 46, 0.5)),
+        url(../img/waterfall.jpg);
+}
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: 50px;
+    width: 100vw;
+}
+
+.footerline {
+    font-size: 85%;
+    margin-top: 45px;
+}
