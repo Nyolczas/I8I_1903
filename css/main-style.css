@@ -88,6 +88,8 @@ h5 {
     flex-direction: column;
     justify-content: center;
     margin: 0 1.2rem;
+    color: var(--feher);
+    text-shadow:  0 0 3rem var(--midBg) , 0 0 4rem var(--midBg);
 }
 
 @media screen and (max-width: 360px)
