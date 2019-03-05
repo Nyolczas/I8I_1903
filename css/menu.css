@@ -2,13 +2,20 @@
     --spantav: 15px;
 }
 
-nav {
-    direction: rtl;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    cursor: pointer;
+.sticky {
+    position: sticky;
+    top: 0;
+    right: 0;
 }
+
+nav {
+    direction: rtl; 
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    /* right: 25px;; */
+}
+
 
 .menu__mask {
     display: block;

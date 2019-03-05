@@ -21,9 +21,12 @@
 
 body {
     font-size: 100%;
+    display: flex;
     min-height: 100vh;
+    flex-direction: column;
     font-family: "Roboto", sans-serif;
     color: var(--textClr);
+    position: relative;
 }
 
 h1,
@@ -35,7 +38,7 @@ h5 {
 }
 
 .widthwrapper {
-    width: 100vw;
+    /* width: 100vw; */
     max-width: 1140px;
     display: block;
     margin-left: auto;
@@ -46,6 +49,11 @@ h5 {
 .contentwrapper {
     margin-left: 140px;
     margin-right: 140px;
+}
+
+.site-content {
+    flex: 1;
+    margin-top: 2rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -61,6 +69,7 @@ h5 {
     background-size: cover;
     position: relative;
     background-position: center;
+    z-index: -1;
 }
 
 .header-fooldal {
@@ -111,12 +120,12 @@ h5 {
 
 /* footer */
 footer {
-    position: absolute;
-    bottom: 50px;
-    width: 100vw;
+    margin-top: 45px;
+    background: linear-gradient(to right, var(--midBg), var(--darkBg));
 }
 
 .footerline {
     font-size: 85%;
-    margin-top: 45px;
+    padding: 0.5rem 0;
+    color: var(--feher);
 }
