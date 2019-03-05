@@ -2,12 +2,6 @@
     --spantav: 15px;
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-    right: 0;
-}
-
 nav {
     direction: rtl; 
     cursor: pointer;

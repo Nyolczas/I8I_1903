@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
@@ -15,59 +15,53 @@
 </head>
 
 <body>
-    <div class="body-container">
-        <div class="menu-container">
-            <nav>
-                <div id="box1" class="nemani">
-                    <span class="menu__mask" id="menuMask"></span>
-                    <div class="menusor">
-                        <ul>
-                            <li>
-                                <a id="link" class="link" href="fooldal.html">főoldal<span></span><span></span></a>
-                            </li>
-                            <li>
-                                <a class="link active" href="webdevskills.html">webfejlesztés<span></span><span></span></a>
-                            </li>
-                            <li>
-                                <a class="link" href="concept.html">concept és storyboard<span></span><span></span></a>
-                            </li>
-                            <li>
-                                <a class="link" href="anim.html">animáció<span></span><span></span></a>
-                            </li>
-                            <li>
-                                <a class="link" href="design.html">design<span></span><span></span></a>
-                            </li>
-                            <li>
-                                <a class="link" href="game.html">játék<span></span><span></span></a>
-                            </li>
-                            <li>
-                                <a class="link" href="bio.html">bio<span></span><span></span></a>
-                            </li>
-                            <li>
-                                <a class="link" href="contact.html">kapcsolat<span></span><span></span></a>
-                            </li>
-                        </ul>
+        <div class="sticky">
+                <nav class="widthwrapper">
+                    <div id="box1" class="nemani">
+                        <span class="menu__mask" id="menuMask"></span>
+                        <div class="menusor">
+                            <ul>
+                                <li>
+                                    <a id="link" class="link" href="fooldal.html">főoldal<span></span><span></span></a>
+                                </li>
+                                <li>
+                                    <a class="link" href="portfolio.html">portfólió<span></span><span></span></a>
+                                </li>
+                                <li>
+                                    <a class="link" href="webdevskills.html">webfejlesztés<span></span><span></span></a>
+                                </li>
+                                <li>
+                                    <a class="link" href="bio.html">bio<span></span><span></span></a>
+                                </li>
+                                <li>
+                                    <a class="link" href="game.html">játék<span></span><span></span></a>
+                                </li>
+                                <li>
+                                    <a class="link" href="contact.html">kapcsolat<span></span><span></span></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="hambi" onclick="change(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
-            </nav>
-        </div>
-        <header>
-            <div class="head-container">
-                <div class="logo-container">
-                    <a href="contact.html"><img src="img/logo8_green.png" alt="logo8_green" id="logo8"></a> 
-                </div>
-                <div class="nev-container">
-                    <h1>Nyolczas István</h1>
-                    <p><i>grafikus, webfejlesztő</i> </p>
-                </div>
-                <div class="menuspacer"></div>
+                    <div class="hambi" onclick="change(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <div id="taki" class="taki"></div>
+                </nav>
+                <header class="header header-fooldal">
+                    <div class="head-container widthwrapper">
+                            <div class="logo-container">
+                                <a href="fooldal.html"><img src="img/logo8_green.png" alt="logo8_green" id="logo8"></a>
+                            </div>
+                            <div class="nev-container">
+                                <h1>Nyolczas István</h1>
+                                <p><i>grafikus, webfejlesztő</i> </p>
+                            </div>
+                            <div class="menuspacer"></div>
+                        </div>
+                </header>
             </div>
-        </header>
 
         <!-- content -->
         <main>
@@ -105,14 +99,16 @@
         <!-- content - end -->
 
         <footer>
-            <div class="footerline">
-                <p>&copy
-                    <i>Nyolczas István
-                        <span id="year"></span></i>
-                </p>
-            </div>
-        </footer>
-    </div>
+                <div class="footerline widthwrapper">
+                    <div class="contentwrapper">
+                        <p>&copy
+                            <i>Nyolczas István
+                                <span id="year"></span></i>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <script src="js/menu.js"></script>
     <script>

@@ -22,6 +22,7 @@
 body {
     font-size: 100%;
     display: flex;
+    justify-content: space-between;
     min-height: 100vh;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
@@ -49,6 +50,13 @@ h5 {
 .contentwrapper {
     margin-left: 140px;
     margin-right: 140px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .site-content {

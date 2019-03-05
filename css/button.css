@@ -59,8 +59,8 @@
   
   .button:active {
     opacity: 1;
-    background:var(--szurke);
-    color: inherit;
+    background:var(--midBg);
+    color: var(--menuBg);
   }
   
 .fas {
