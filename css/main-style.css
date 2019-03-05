@@ -87,6 +87,27 @@ h5 {
         url(../img/waterfall.jpg);
 }
 
+.header-webdev {
+    background-image: linear-gradient(to right,
+        rgba(0, 150, 173, 0.5),
+        rgba(0, 94, 46, 0.5)),
+        url(../img/code.jpg);
+}
+
+.header-cv {
+    background-image: linear-gradient(to right,
+        rgba(0, 150, 173, 0.5),
+        rgba(0, 94, 46, 0.5)),
+        url(../img/cv.jpg);
+}
+
+.header-portfolio {
+    background-image: linear-gradient(to right,
+        rgba(0, 150, 173, 0.5),
+        rgba(0, 94, 46, 0.5)),
+        url(../img/portfolio.jpg);
+}
+
 .head-container {
     display: flex;
     /* width: 95vw; */

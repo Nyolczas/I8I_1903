@@ -8,6 +8,7 @@
     opacity: 1;
     color: var(--feher);
     background-color: var(--menuBg);
+    text-decoration: none;
   }
   .button__text {
     display: block;
