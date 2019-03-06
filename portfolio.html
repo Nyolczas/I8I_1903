@@ -7,10 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="css/main-style.css">
-    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/gallery-style.css">
 </head>
 
 <body>
@@ -65,6 +67,78 @@
 
     <!-- content -->
 
+    <main class="widthwrapper site-content">
+        <section>
+            <!-- prófécia storyboard -->
+            <a class="showSingle" target="1">Storyboard</a>
+            <div id="div1" class="targetDiv">
+                <div class="row" id="row">
+                    <div class="column-5">
+                        <img src="img/storyboards/profec/smalls/profe0001.jpg" class="hover-shadow cursor" onclick="openModal();currentSlide(1,1)">
+                    </div>
+                    <div class="column-5">
+                        <img src="img/storyboards/profec/smalls/profe0002.jpg" class="hover-shadow cursor" onclick="openModal();currentSlide(1,2)">
+                    </div>
+                    <div class="column-5">
+                        <img src="img/storyboards/profec/smalls/profe0003.jpg" class="hover-shadow cursor" onclick="openModal();currentSlide(1,3)">
+                    </div>
+                </div>
+
+            </div>
+            
+
+            <a class="showSingle" target="2">Concept Art</a>
+            <div id="div2" class="targetDiv">
+                <h1>HELLO</h1>
+            </div>
+        </section>
+    </main>
+
+    <!-- prófécia storyboard modal-->
+    <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <div class="prewiev-container">
+                    <div class="mySlides mySlides-1">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="img/storyboards/profec/profe0001.jpg">
+                    </div>
+
+                    <div class="mySlides mySlides-1">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="img/storyboards/profec/profe0002.jpg">
+                    </div>
+
+                    <div class="mySlides mySlides-1">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="img/storyboards/profec/profe0003.jpg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(1,-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+                </div>
+
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="bottom">
+                    <div class="bottom--img-container">
+                        <img class="demo cursor" src="img/storyboards/profec/smalls/profe0001.jpg" onclick="currentSlide(1,1)"
+                            alt="Water Interaction">
+                    </div>
+                    <div class="bottom--img-container">
+                        <img class="demo cursor" src="img/storyboards/profec/smalls/profe0002.jpg" onclick="currentSlide(1,2)"
+                            alt="Planet Interaction">
+                    </div>
+                    <div class="bottom--img-container">
+                        <img class="demo cursor" src="img/storyboards/profec/smalls/profe0003.jpg" onclick="currentSlide(1,3)"
+                            alt="Heaven and Hell Interaction">
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- content - end -->
 
     <footer>
@@ -80,6 +154,9 @@
 
 
     <script src="js/menu.js"></script>
+    <script src="js/lightbox-modal.js"></script>
+    <script src="js/slideToggle.js"></script>
+
 
 </body>
 

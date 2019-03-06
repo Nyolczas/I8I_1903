@@ -181,8 +181,8 @@ h5 {
 }
 /* button adjust --- end */
 
-/* unique pages */
-/* főoldal */
+/* =============================== unique pages =============================== */
+/* -------------------------- főoldal -------------------------- */
 
 .portre-container{
     margin-top: calc(-104px - 2rem);
@@ -223,7 +223,9 @@ h5 {
 .text-container-main h1 {
     margin-bottom: 1.5rem;
 }
-/* unique pages --- end */
+
+
+/* =============================== unique pages --- end =============================== */
 
 /* footer */
 footer {
