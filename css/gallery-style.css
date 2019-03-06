@@ -10,6 +10,10 @@
   --modalBottom: 6vh;
 }
 
+.block {
+  margin-bottom: 2rem;
+}
+
 .showSingle {
   color: var(--feher);
   background: linear-gradient(to right, var(--midBg), var(--menuBg));
@@ -21,11 +25,12 @@
 .targetDiv {
   display: none;
   background: linear-gradient(to right, var(--midBg), var(--menuBg));
+  padding-bottom: 2px;
 }
 
 .boardBg {
   background-color: white;
-  margin: 0 3px 0 3px;
+  margin: 0 2px 0 2px;
   padding: 0.3rem 0;
 }
 
@@ -40,6 +45,7 @@
   align-items: baseline;
   justify-content: space-between;
   padding: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 
 .row {
