@@ -11,8 +11,11 @@
   }
   
   .showSingle {
+    color: var(--feher);
     background: linear-gradient(to right, var(--midBg), var(--menuBg));
     display: block;
+    padding: 0.4rem 0.98rem;
+    cursor: pointer;
   }
   
   .targetDiv {
@@ -49,6 +52,7 @@
   /* The Modal (background) */
   .modal {
     display: none;
+    position: absolute;
     z-index: 2;
     left: 0;
     top: 0;

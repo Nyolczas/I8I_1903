@@ -68,19 +68,19 @@
     <!-- content -->
 
     <main class="widthwrapper site-content">
-        <section>
+        <section class="contentwrapper">
             <!-- prófécia storyboard -->
             <a class="showSingle" target="1">Storyboard</a>
             <div id="div1" class="targetDiv">
                 <div class="row" id="row">
                     <div class="column-5">
-                        <img src="img/storyboards/profec/smalls/profe0001.jpg" class="hover-shadow cursor" onclick="openModal();currentSlide(1,1)">
+                        <img src="img/storyboards/profec/smalls/profe0001.jpg" class="hover-shadow cursor" onclick="openModal('Modal_profecia');currentSlide(1,1)">
                     </div>
                     <div class="column-5">
-                        <img src="img/storyboards/profec/smalls/profe0002.jpg" class="hover-shadow cursor" onclick="openModal();currentSlide(1,2)">
+                        <img src="img/storyboards/profec/smalls/profe0002.jpg" class="hover-shadow cursor" onclick="openModal('Modal_profecia');currentSlide(1,2)">
                     </div>
                     <div class="column-5">
-                        <img src="img/storyboards/profec/smalls/profe0003.jpg" class="hover-shadow cursor" onclick="openModal();currentSlide(1,3)">
+                        <img src="img/storyboards/profec/smalls/profe0003.jpg" class="hover-shadow cursor" onclick="openModal('Modal_profecia');currentSlide(1,3)">
                     </div>
                 </div>
 
@@ -95,8 +95,8 @@
     </main>
 
     <!-- prófécia storyboard modal-->
-    <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div id="Modal_profecia" class="modal">
+            <span class="close cursor" onclick="closeModal('Modal_profecia')">&times;</span>
             <div class="modal-content">
                 <div class="prewiev-container">
                     <div class="mySlides mySlides-1">
@@ -120,21 +120,21 @@
 
 
                 <div class="caption-container">
-                    <p id="caption"></p>
+                    <p id="caption1"></p>
                 </div>
 
                 <div class="bottom">
                     <div class="bottom--img-container">
                         <img class="demo cursor" src="img/storyboards/profec/smalls/profe0001.jpg" onclick="currentSlide(1,1)"
-                            alt="Water Interaction">
+                            alt="Amar - Profecia Storyboard (részlet 1)">
                     </div>
                     <div class="bottom--img-container">
                         <img class="demo cursor" src="img/storyboards/profec/smalls/profe0002.jpg" onclick="currentSlide(1,2)"
-                            alt="Planet Interaction">
+                            alt="Amar - Profecia Storyboard (részlet 2)">
                     </div>
                     <div class="bottom--img-container">
                         <img class="demo cursor" src="img/storyboards/profec/smalls/profe0003.jpg" onclick="currentSlide(1,3)"
-                            alt="Heaven and Hell Interaction">
+                            alt="Amar - Profecia Storyboard (részlet 3)">
                     </div>
                 </div>
             </div>

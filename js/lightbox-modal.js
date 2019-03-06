@@ -1,13 +1,13 @@
 // Open the Modal
-function openModal() {
-    document.getElementById('myModal').style.display = "block";
-    document.getElementById('row').style.display = "none";
+function openModal(modal) {
+    document.getElementById(modal).style.display = "block";
+    // document.getElementById('row').style.display = "none";
   }
   
   // Close the Modal
-  function closeModal() {
-    document.getElementById('myModal').style.display = "none";
-    document.getElementById('row').style.display = "flex";
+  function closeModal(modal) {
+    document.getElementById(modal).style.display = "none";
+    // document.getElementById('row').style.display = "flex";
   }
   
   var slideIndex = 1;
@@ -29,7 +29,7 @@ function openModal() {
     var slidename = "mySlides-"+s;
     var slides = document.getElementsByClassName(slidename);
     var dots = document.getElementsByClassName("demo");
-    var captionText = document.getElementById("caption");
+    var captionText = document.getElementById("caption+s");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
