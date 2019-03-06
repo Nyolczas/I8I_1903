@@ -51,15 +51,17 @@
             <div id="taki" class="taki"></div>
         </nav>
         <header class="header header-portfolio">
-            <div class="head-container widthwrapper">
-                <div class="logo-container">
-                    <a href="fooldal.html"><img src="img/logo8_green.png" alt="logo8_green" id="logo8"></a>
+            <div class="widthwrapper">
+                <div class="head-container">
+                    <div class="logo-container">
+                        <a href="fooldal.html"><img src="img/logo8_green.png" alt="logo8_green" id="logo8"></a>
+                    </div>
+                    <div class="nev-container">
+                        <h1>Nyolczas István</h1>
+                        <p><i>grafikus, webfejlesztő</i> </p>
+                    </div>
+                    <div class="menuspacer"></div>
                 </div>
-                <div class="nev-container">
-                    <h1>Nyolczas István</h1>
-                    <p><i>grafikus, webfejlesztő</i> </p>
-                </div>
-                <div class="menuspacer"></div>
             </div>
         </header>
     </div>
@@ -69,23 +71,54 @@
 
     <main class="widthwrapper site-content">
         <section class="contentwrapper">
-            <!-- prófécia storyboard -->
+
             <a class="showSingle" target="1">Storyboard</a>
             <div id="div1" class="targetDiv">
+                <!-- 80nap storyboard -->
+                <div class="row" id="row">
+                        <div class="column-4">
+                            <img src="img/storyboards/80nap/smalls/05.jpg" class="hover-shadow cursor" onclick="openModal('Modal_80nap');currentSlide(1,1)">
+                        </div>
+                        <div class="column-4">
+                            <img src="img/storyboards/80nap/smalls/06.jpg" class="hover-shadow cursor" onclick="openModal('Modal_80nap');currentSlide(1,2)">
+                        </div>
+                        <div class="column-4">
+                            <img src="img/storyboards/80nap/smalls/07.jpg" class="hover-shadow cursor" onclick="openModal('Modal_80nap');currentSlide(1,3)">
+                        </div>
+                        <div class="column-4">
+                            <img src="img/storyboards/80nap/smalls/08.jpg" class="hover-shadow cursor" onclick="openModal('Modal_80nap');currentSlide(1,4)">
+                        </div>
+                    </div>
+                <div class="row" id="row">
+                        <div class="column-4">
+                            <img src="img/storyboards/80nap/smalls/09.jpg" class="hover-shadow cursor" onclick="openModal('Modal_80nap');currentSlide(1,5)">
+                        </div>
+                        <div class="column-4">
+                            <img src="img/storyboards/80nap/smalls/10.jpg" class="hover-shadow cursor" onclick="openModal('Modal_80nap');currentSlide(1,6)">
+                        </div>
+                        <div class="column-4">
+                            <img src="img/storyboards/80nap/smalls/11.jpg" class="hover-shadow cursor" onclick="openModal('Modal_80nap');currentSlide(1,7)">
+                        </div>
+                        <div class="column-4">
+                            <img src="img/storyboards/80nap/smalls/12.jpg" class="hover-shadow cursor" onclick="openModal('Modal_80nap');currentSlide(1,8)">
+                        </div>
+                    </div>
+
+                <!-- prófécia storyboard -->
+
                 <div class="row" id="row">
                     <div class="column-5">
-                        <img src="img/storyboards/profec/smalls/profe0001.jpg" class="hover-shadow cursor" onclick="openModal('Modal_profecia');currentSlide(1,1)">
+                        <img src="img/storyboards/profec/smalls/profe0001.jpg" class="hover-shadow cursor" onclick="openModal('Modal_profecia');currentSlide(2,1)">
                     </div>
                     <div class="column-5">
-                        <img src="img/storyboards/profec/smalls/profe0002.jpg" class="hover-shadow cursor" onclick="openModal('Modal_profecia');currentSlide(1,2)">
+                        <img src="img/storyboards/profec/smalls/profe0002.jpg" class="hover-shadow cursor" onclick="openModal('Modal_profecia');currentSlide(2,2)">
                     </div>
                     <div class="column-5">
-                        <img src="img/storyboards/profec/smalls/profe0003.jpg" class="hover-shadow cursor" onclick="openModal('Modal_profecia');currentSlide(1,3)">
+                        <img src="img/storyboards/profec/smalls/profe0003.jpg" class="hover-shadow cursor" onclick="openModal('Modal_profecia');currentSlide(2,3)">
                     </div>
                 </div>
-
             </div>
-            
+
 
             <a class="showSingle" target="2">Concept Art</a>
             <div id="div2" class="targetDiv">
@@ -94,51 +127,135 @@
         </section>
     </main>
 
-    <!-- prófécia storyboard modal-->
-    <div id="Modal_profecia" class="modal">
-            <span class="close cursor" onclick="closeModal('Modal_profecia')">&times;</span>
+    <!-- 80nap storyboard modal-->
+    <div id="Modal_80nap" class="modal">
+            <span class="close cursor" onclick="closeModal('Modal_80nap')">&times;</span>
             <div class="modal-content">
                 <div class="prewiev-container">
                     <div class="mySlides mySlides-1">
-                        <div class="numbertext">1 / 3</div>
-                        <img src="img/storyboards/profec/profe0001.jpg">
+                        <div class="numbertext">1 / 8</div>
+                        <img src="img/storyboards/80nap/05.jpg">
                     </div>
-
                     <div class="mySlides mySlides-1">
-                        <div class="numbertext">2 / 3</div>
-                        <img src="img/storyboards/profec/profe0002.jpg">
+                        <div class="numbertext">2 / 8</div>
+                        <img src="img/storyboards/80nap/06.jpg">
                     </div>
-
                     <div class="mySlides mySlides-1">
-                        <div class="numbertext">3 / 3</div>
-                        <img src="img/storyboards/profec/profe0003.jpg">
+                        <div class="numbertext">3 / 8</div>
+                        <img src="img/storyboards/80nap/07.jpg">
                     </div>
-
+                    <div class="mySlides mySlides-1">
+                        <div class="numbertext">4 / 8</div>
+                        <img src="img/storyboards/80nap/08.jpg">
+                    </div>
+                    <div class="mySlides mySlides-1">
+                        <div class="numbertext">5 / 8</div>
+                        <img src="img/storyboards/80nap/09.jpg">
+                    </div>
+                    <div class="mySlides mySlides-1">
+                        <div class="numbertext">6 / 8</div>
+                        <img src="img/storyboards/80nap/10.jpg">
+                    </div>
+                    <div class="mySlides mySlides-1">
+                        <div class="numbertext">7 / 8</div>
+                        <img src="img/storyboards/80nap/11.jpg">
+                    </div>
+                    <div class="mySlides mySlides-1">
+                        <div class="numbertext">8 / 8</div>
+                        <img src="img/storyboards/80nap/12.jpg">
+                    </div>
+    
                     <a class="prev" onclick="plusSlides(1,-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
                 </div>
-
-
+    
+    
                 <div class="caption-container">
                     <p id="caption1"></p>
                 </div>
-
+    
                 <div class="bottom">
                     <div class="bottom--img-container">
-                        <img class="demo cursor" src="img/storyboards/profec/smalls/profe0001.jpg" onclick="currentSlide(1,1)"
-                            alt="Amar - Profecia 1">
+                        <img class="demo1 demo cursor" src="img/storyboards/80nap/smalls/05.jpg" onclick="currentSlide(1,1)"
+                            alt="80 days around the world 1">
                     </div>
                     <div class="bottom--img-container">
-                        <img class="demo cursor" src="img/storyboards/profec/smalls/profe0002.jpg" onclick="currentSlide(1,2)"
-                            alt="Amar - Profecia 2">
+                        <img class="demo1 demo cursor" src="img/storyboards/80nap/smalls/06.jpg" onclick="currentSlide(1,2)"
+                            alt="80 days around the world 2">
                     </div>
                     <div class="bottom--img-container">
-                        <img class="demo cursor" src="img/storyboards/profec/smalls/profe0003.jpg" onclick="currentSlide(1,3)"
-                            alt="Amar - Profecia 3">
+                        <img class="demo1 demo cursor" src="img/storyboards/80nap/smalls/07.jpg" onclick="currentSlide(1,3)"
+                            alt="80 days around the world 3">
+                    </div>
+                    <div class="bottom--img-container">
+                        <img class="demo1 demo cursor" src="img/storyboards/80nap/smalls/08.jpg" onclick="currentSlide(1,4)"
+                            alt="80 days around the world 4">
+                    </div>
+                    <div class="bottom--img-container">
+                        <img class="demo1 demo cursor" src="img/storyboards/80nap/smalls/09.jpg" onclick="currentSlide(1,5)"
+                            alt="80 days around the world 5">
+                    </div>
+                    <div class="bottom--img-container">
+                        <img class="demo1 demo cursor" src="img/storyboards/80nap/smalls/10.jpg" onclick="currentSlide(1,6)"
+                            alt="80 days around the world 6">
+                    </div>
+                    <div class="bottom--img-container">
+                        <img class="demo1 demo cursor" src="img/storyboards/80nap/smalls/11.jpg" onclick="currentSlide(1,7)"
+                            alt="80 days around the world 7">
+                    </div>
+                    <div class="bottom--img-container">
+                        <img class="demo1 demo cursor" src="img/storyboards/80nap/smalls/12.jpg" onclick="currentSlide(1,8)"
+                            alt="80 days around the world 8">
                     </div>
                 </div>
             </div>
         </div>
+
+    <!-- prófécia storyboard modal-->
+    <div id="Modal_profecia" class="modal">
+        <span class="close cursor" onclick="closeModal('Modal_profecia')">&times;</span>
+        <div class="modal-content">
+            <div class="prewiev-container">
+                <div class="mySlides mySlides-2">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img/storyboards/profec/profe0001.jpg">
+                </div>
+
+                <div class="mySlides mySlides-2">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="img/storyboards/profec/profe0002.jpg">
+                </div>
+
+                <div class="mySlides mySlides-2">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="img/storyboards/profec/profe0003.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(2,-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(2,1)">&#10095;</a>
+            </div>
+
+
+            <div class="caption-container">
+                <p id="caption2"></p>
+            </div>
+
+            <div class="bottom">
+                <div class="bottom--img-container">
+                    <img class="demo2 demo cursor" src="img/storyboards/profec/smalls/profe0001.jpg" onclick="currentSlide(2,1)"
+                        alt="Amar - Profecia 1">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo2 demo cursor" src="img/storyboards/profec/smalls/profe0002.jpg" onclick="currentSlide(2,2)"
+                        alt="Amar - Profecia 2">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo2 demo cursor" src="img/storyboards/profec/smalls/profe0003.jpg" onclick="currentSlide(2,3)"
+                        alt="Amar - Profecia 3">
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- content - end -->
 
     <footer>
