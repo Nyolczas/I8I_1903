@@ -29,7 +29,7 @@ function openModal(modal) {
     var slidename = "mySlides-"+s;
     var slides = document.getElementsByClassName(slidename);
     var dots = document.getElementsByClassName("demo");
-    var captionText = document.getElementById("caption+s");
+    var captionText = document.getElementById("caption" + s);
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
