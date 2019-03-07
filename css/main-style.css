@@ -73,8 +73,8 @@ h5 {
 }
 
 .header {
-    height: 20vh;
-    max-height: 280px;
+    /* height: 20vh;
+    max-height: 280px; */
     min-height: 120px;
     background-size: cover;
     position: relative;
@@ -88,11 +88,18 @@ h5 {
 }
 
 /* unique headers */
-.header-fooldal {
+.header-fooldal {  
     background-image: linear-gradient(to right,
         rgba(0, 150, 173, 0.5),
         rgba(0, 94, 46, 0.5)),
         url(../img/waterfall.jpg);
+}
+
+@media screen and (min-width: 880px) {
+    .header-fooldal {
+        height: 20vh;
+    max-height: 280px;
+    }
 }
 
 .header-webdev {
@@ -157,6 +164,13 @@ h5 {
     /* border: 1px solid black; */
 }
 
+.focim {
+    color: var(--feher);
+    text-align: center;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
+
 /* button adjust */
 .buttons-wrapper {
     margin-top: 60px;
@@ -192,13 +206,6 @@ h5 {
     /* border: 1px solid red; */
 }
 
-@media screen and (max-width: 800px) {
-    .portre-container {
-        margin-top: 0;
-        z-index: 0;
-    }
-}
-
 #portre-wrap {
     z-index: 2;
     width: 207px;
@@ -222,6 +229,16 @@ h5 {
 
 .text-container-main h1 {
     margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 880px) {
+    .portre-container {
+        margin-top: 0;
+        z-index: -3;
+    }
+    #portre-wrap {
+        z-index: -2;
+    }
 }
 
 

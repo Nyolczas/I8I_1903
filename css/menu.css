@@ -130,6 +130,10 @@ nav:hover .taki {
 
 
 /* ================ menü ================ */
+.nemani.menusor ul li a{
+    display: none;
+}
+
 .menusor {
     position: relative;
     width: 100%;
@@ -152,6 +156,7 @@ ul {
 @media screen and (min-width: 480px) {
     .menusor {
         width: 320px;
+
     }
 }
 
@@ -159,6 +164,7 @@ ul li {
     list-style: none;
     padding: 15px 0px 15px 0px;
     text-align: center;
+    text-transform: uppercase;
     margin: auto;
     width: 100%;
 }
