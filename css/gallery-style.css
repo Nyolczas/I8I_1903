@@ -11,7 +11,7 @@
 }
 
 .block {
-  margin-bottom: 2rem;
+  margin: 2.5rem 0px;
 }
 
 .showSingle {
@@ -20,6 +20,7 @@
   display: block;
   padding: 0.4rem 0.98rem;
   cursor: pointer;
+  margin-top: 2rem;
 }
 
 .targetDiv {
@@ -64,6 +65,11 @@
 
 .bottom--img-container {
   height: var(--modalBottom);
+}
+
+.column-3 {
+  width: calc(100vw / 3);
+  overflow: hidden;
 }
 
 .column-4 {
