@@ -124,6 +124,11 @@
   overflow: hidden;
 }
 
+.column-6 {
+  width: calc(100vw / 6);
+  overflow: hidden;
+}
+
 .demo {
   height: 100%;
   opacity: 0.6;
