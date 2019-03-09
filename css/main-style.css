@@ -36,6 +36,7 @@ h3,
 h4,
 h5 {
     font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.11rem;
 }
 
 .widthwrapper {
@@ -52,6 +53,25 @@ h5 {
     margin-right: 140px;
 }
 
+@media screen and (max-width: 600px) {
+    .contentwrapper {
+        margin: 0 1.5rem;
+    }
+}
+
+.contentwrapper article {
+    margin-bottom: 1rem;
+}
+
+.contentwrapper h1, .contentwrapper h2, .contentwrapper h3 {
+    padding: .6rem 0;
+}
+
+.contentwrapper p {
+    padding: .25rem 0;
+    line-height: 1.5rem
+}
+
 .sticky {
     position: sticky;
     top: 0;
@@ -64,12 +84,6 @@ h5 {
     margin-top: 2rem;
     width: 100vw;
     /* max-width: 100%; */
-}
-
-@media screen and (max-width: 600px) {
-    .contentwrapper {
-        margin: 0 1.5rem;
-    }
 }
 
 .header {
