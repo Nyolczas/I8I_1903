@@ -9,7 +9,7 @@
 
 :root {
     --menuBg: rgb(0, 190, 143);
-    --lightBg: rgba(0, 190, 142, 0.25);
+    --lightBg: rgba(55, 204, 167, 0.25);
     --midBg: rgb(0, 118, 135);
     --darkBg: rgb(0, 81, 65);
     --menuHover: rgb(0, 19, 8);
@@ -68,7 +68,7 @@ h5 {
 
 @media screen and (max-width: 600px) {
     .contentwrapper {
-        margin:5px;
+        margin: 1.5rem;
     }
 }
 
@@ -165,10 +165,12 @@ h5 {
 }
 
 .focim {
-    color: var(--feher);
-    text-align: center;
-    margin-top: -1rem;
-    padding-bottom: 1rem;
+    color: var(--textClr);
+    font-size: 3.8rem;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 0;
+    /* text-shadow:  0 0 3rem var(--midBg) , 0 0 4rem var(--midBg); */
 }
 
 /* button adjust */
