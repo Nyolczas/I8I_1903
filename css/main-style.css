@@ -68,13 +68,11 @@ h5 {
 
 @media screen and (max-width: 600px) {
     .contentwrapper {
-        margin: 1.5rem;
+        margin: 0 1.5rem;
     }
 }
 
 .header {
-    /* height: 20vh;
-    max-height: 280px; */
     min-height: 120px;
     background-size: cover;
     position: relative;
@@ -147,14 +145,19 @@ h5 {
     text-shadow:  0 0 3rem var(--midBg) , 0 0 4rem var(--midBg);
 }
 
+.nev-container h1, .nev-container p {
+    padding: 0.15rem 0;
+}
+
+.nev-container p {
+    font-size: 170%;
+}
+
 @media screen and (max-width: 360px)
 {
-    .nev-container h1 {
-        font-size: 95%;
-    } 
-
-    .nev-container p {
-        font-size: 85%;
+    .nev-container {
+        text-shadow:  0 0 0.8rem var(--midBg) , 0 0 1.5rem var(--midBg);
+        font-size: 75%;
     }  
 }
 
@@ -166,11 +169,9 @@ h5 {
 
 .focim {
     color: var(--textClr);
-    font-size: 3.8rem;
+    font-size: 3.4rem;
     font-style: italic;
     font-weight: 100;
-    margin-top: 0;
-    /* text-shadow:  0 0 3rem var(--midBg) , 0 0 4rem var(--midBg); */
 }
 
 /* button adjust */
@@ -178,7 +179,6 @@ h5 {
     margin-top: 60px;
     display: flex;
     align-items: stretch;
-    
     width: 100%;
 }
 
@@ -231,6 +231,10 @@ h5 {
 
 .text-container-main h1 {
     margin-bottom: 1.5rem;
+}
+
+.text-container-main p {
+    padding: 0.4rem 0;
 }
 
 @media screen and (max-width: 880px) {
