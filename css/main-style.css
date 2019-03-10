@@ -56,11 +56,13 @@ h5 {
 @media screen and (max-width: 600px) {
     .contentwrapper {
         margin: 0 1.5rem;
+        overflow: hidden;
     }
 }
 
 .contentwrapper article {
     margin-bottom: 1.8rem;
+    overflow: hidden;
 }
 
 .contentwrapper h1,
@@ -125,8 +127,8 @@ h5 {
 
 .header-cv {
     background-image: linear-gradient(to right,
-        rgba(0, 150, 173, 0.5),
-        rgba(0, 94, 46, 0.5)),
+        rgba(0, 150, 173, 0.75),
+        rgba(0, 94, 46, 0.75)),
         url(../img/cv.jpg);
 }
 
@@ -188,6 +190,11 @@ h5 {
     font-size: 3.4rem;
     font-style: italic;
     font-weight: 100;
+}
+
+.greenhead {
+    color: var(--midBg);
+    font-weight: 600;
 }
 
 /* button adjust */
@@ -267,31 +274,53 @@ h5 {
 
 
 /* -------------------------- önéletrajz -------------------------- */
+
+
 .cv-container {
+    padding: 1rem 0;
+}
+
+.job-container {
     display: flex;
     align-items: stretch;
+    position: relative;
 }
 
 .baloszlop {
+    text-align: right;
     flex-grow: 20;
-    width: 10%
+    width: 32%;
+    padding: 1rem 1rem 1rem 0;
 }
 
 .pottyoszlop {
     flex-grow: 1;
     display: flex;
     align-items: stretch;
+    position: relative;
+    /* border: 1px solid black; */
 }
 
 .jobboszlop {
     flex-grow: 30;
-    width: 20%
+    width: 67%;
+    padding: 1rem 0 1rem 1rem;
 }
 
 .oszlopcsik {
-    width: 4px;
+    width: 0.3rem;
     height: 100%;
     background-color: var(--menuBg);
+}
+
+.potty {
+    background: white;
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 0.3rem solid var(--menuBg);
+    border-radius: 100%;
+    margin: 1rem 0 0 -0.4rem;
 }
 /* =============================== unique pages --- end =============================== */
 
