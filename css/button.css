@@ -9,6 +9,7 @@
     color: var(--feher);
     background-color: var(--menuBg);
     text-decoration: none;
+    text-align: center;
   }
   .button__text {
     display: block;

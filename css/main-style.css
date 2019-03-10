@@ -59,13 +59,11 @@ h5 {
     }
     .contentwrapper {
         margin: 0 1.5rem;
-        overflow: hidden;
     }
 }
 
 .contentwrapper article {
     margin-bottom: 1.8rem;
-    overflow: hidden;
 }
 
 .contentwrapper h1,
@@ -216,7 +214,6 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: 0 -0.8rem;
     justify-content: space-between;
     align-items: center;
 }

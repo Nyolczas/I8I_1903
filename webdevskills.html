@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/webdevskills.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
 </head>
@@ -64,16 +65,16 @@
     </div>
 
     <!-- content -->
-    <main>
-        <div class="main-container">
+    <main class="widthwrapper site-content">
+        <section class="contentwrapper duplaoszlop">
             <div class="chart-container">
                 <div style="position: relative;">
-                    <canvas id="myChart" width="400" height="400"></canvas>
+                    <canvas id="myChart" width="400" height="500"></canvas>
                 </div>
             </div>
 
             <div class="text-container">
-                <h1>Programozás, webfejlesztés</h1>
+                <h1 class="greenhead">Programozás, webfejlesztés</h1>
                 <p>2012-ben kezdtem ismerkedni a programozásal,
                     2017-től pedig aktívan webfejlesztést tanulok.
                 </p>
@@ -83,18 +84,39 @@
                     Ismereteimet folyamatosan bővítem, napi rendszerességgel tanulok.
                     A célom, hogy tudásom a legújabb webes technológiákból, mindig naprakész legyen.
                 </p>
-                <div class="button button-ref">
-                    <span class="button__mask"></span>
-                    <span class="button__text">
-                        <h1> <i class="fab fa-github"></i> Referenciák</h1>
-                    </span>
-                    <span class="button__text button__text--bis">
-                        <h1> <i class="fab fa-github"></i> Referenciák</h1>
-                    </span>
-                </div>
-
             </div>
-        </div>
+            <div class="buttons-wrapper" id="webbuttons">
+                <div class="buttons-container">
+                    <a href="portfolio.html" class="button btn-main">
+                        <span class="button__mask"></span>
+                        <span class="button__text">
+                            <h3><i class="fas fa-paint-brush"></i> Portfólió</h3>
+                        </span>
+                        <span class="button__text button__text--bis">
+                            <h3><i class="fas fa-paint-brush"></i> Portfólió</h3>
+                        </span>
+                    </a>
+                    <a href="webdevskills.html" class="button btn-main">
+                        <span class="button__mask"></span>
+                        <span class="button__text">
+                            <h3><i class="fab fa-github"></i> Referenciák</h3>
+                        </span>
+                        <span class="button__text button__text--bis">
+                            <h3><i class="fab fa-github"></i> Referenciák</h3>
+                        </span>
+                    </a>
+                    <a href="contact.html" class="button btn-main">
+                        <span class="button__mask"></span>
+                        <span class="button__text">
+                            <h3><i class="fas fa-pencil-alt"></i> Kapcsolat</h3>
+                        </span>
+                        <span class="button__text button__text--bis">
+                            <h3><i class="fas fa-pencil-alt"></i> Kapcsolat</h3>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- content - end -->
 
@@ -112,6 +134,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <script src="js/menu.js"></script>
     <script>
+        //--- refresh page on resize browser
+        window.onresize = function () {
+            location.reload();
+        }
+
         //--- chart js 
         var ctx = document.getElementById("myChart").getContext('2d');
         var myChart = new Chart(ctx, {
@@ -124,7 +151,7 @@
                 ],
                 datasets: [{
                     label: 'nyelvtudás: ',
-                    data: [99, 97, 91, 57, 75, 53, 63, 10, 7, 80, 29, 54, 48, 35, 86, 83, 67, 28, 21,
+                    data: [99, 97, 94, 57, 75, 53, 63, 10, 7, 80, 29, 54, 48, 35, 76, 63, 57, 28, 21,
                         44, 33
                     ],
                     backgroundColor: 'rgba(0, 190, 143, 0.45)',
@@ -133,6 +160,9 @@
                 }]
             },
             options: {
+                legend: {
+                    display: false
+                },
                 scales: {
                     yAxes: [{
                         ticks: {
