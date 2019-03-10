@@ -54,6 +54,9 @@ h5 {
 }
 
 @media screen and (max-width: 600px) {
+    body {
+        font-size: 80%;
+    }
     .contentwrapper {
         margin: 0 1.5rem;
         overflow: hidden;
@@ -69,11 +72,22 @@ h5 {
 .contentwrapper h2,
 .contentwrapper h3 {
     padding: .6rem 0;
+    /* border: 1px solid black; */
+}
+
+.greenhead {
+    color: var(--midBg);
+    font-weight: 600;
+    font-size:2rem;
+    padding: .8rem 0 0.1rem 0 !important;
+    /* border-bottom: 2px solid var(--midBg); */
+    margin-bottom: 0.7rem;
+    display: inline-block;
 }
 
 .contentwrapper p {
-    padding: .25rem 0;
-    line-height: 1.5rem
+    padding: .6rem 0;
+    line-height: 1.5rem;
 }
 
 .sticky {
@@ -87,7 +101,6 @@ h5 {
     flex: 1;
     margin-top: 2rem;
     width: 100vw;
-    /* max-width: 100%; */
 }
 
 .header {
@@ -182,7 +195,6 @@ h5 {
 .menuspacer {
     width: 80px;
     height: 10px;
-    /* border: 1px solid black; */
 }
 
 .focim {
@@ -190,11 +202,6 @@ h5 {
     font-size: 3.4rem;
     font-style: italic;
     font-weight: 100;
-}
-
-.greenhead {
-    color: var(--midBg);
-    font-weight: 600;
 }
 
 /* button adjust */
@@ -290,7 +297,9 @@ h5 {
     text-align: right;
     flex-grow: 20;
     width: 32%;
+    max-width: 24vw;;
     padding: 1rem 1rem 1rem 0;
+    hyphens: auto;
 }
 
 .pottyoszlop {
@@ -308,19 +317,19 @@ h5 {
 }
 
 .oszlopcsik {
-    width: 0.3rem;
+    width: 0.2rem;
     height: 100%;
-    background-color: var(--menuBg);
+    background-color: var(--midBg);
 }
 
 .potty {
     background: white;
     position: absolute;
-    width: 0.5rem;
-    height: 0.5rem;
-    border: 0.3rem solid var(--menuBg);
+    width: 0.4rem;
+    height: 0.4rem;
+    border: 0.2rem solid var(--midBg);
     border-radius: 100%;
-    margin: 1rem 0 0 -0.4rem;
+    margin: 1rem 0 0 -0.3rem;
 }
 /* =============================== unique pages --- end =============================== */
 
