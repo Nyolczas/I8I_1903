@@ -51,7 +51,7 @@
             </div>
             <div id="taki" class="taki"></div>
         </nav>
-        <header class="header header-webdev">
+        <header class="header header-graphic">
             <div class="head-container widthwrapper">
                 <div class="logo-container">
                     <a href="index.html"><img src="img/logo8_green.png" alt="logo8_green" id="logo8"></a>
@@ -69,26 +69,39 @@
     <main class="widthwrapper site-content">
         <section class="contentwrapper duplaoszlop">
             <div class="chart-container">
-                <div style="position: relative;">
+                <div class="spacer"></div>
+                <div class="chart" style="position: relative;">
                     <canvas id="myChart" width="400" height="500"></canvas>
                 </div>
             </div>
 
             <div class="text-container">
                 <h1 class="greenhead">Design, 3d Grafika, Animáció</h1>
-                <p>2012-ben kezdtem ismerkedni a programozással,
-                    2017-től pedig aktívan webfejlesztést tanulok.
+                <p>Több, mint 40 000 órás szakmai tapasztalattal redelkezem a digitális képalkotás
+                    teljes területén. Az elmúlt évtizedekben számos hazai és nemzetközi gyártású produkcióban, reklám-
+                    játék és animációsfilm készítésében vettem részt.
                 </p>
-                <p>Mára stabil Frontend fejlesztői ismeretekkel rendelkezem
-                    és a szerver oldali programozástól sem riadok vissza.</p>
+                <p>Grafikusként, az arculat és logó tervezéstől kezdve, a webdizájnon, a videomappingen,
+                    a 2D/3D illusztrációk és animációk készítésén keresztül a filmes utómunkáig,
+                    átfogó és magas szintű szakmai tapasztalattal rendelkezem.</p>
+                <p>2005-ben a drezdai „Perspectives for Animated Film” nemzetközi animációs
+                    csereprogram tagja voltam.</p>
+                <p>Önálló alkotóként és társrendezőként 2003-ban megszereztem a 4. ARC
+                        Videóverseny fődíját a Fájdalom és Humorérzék. c. filmemmel.</p>    
+                <p>2001-ben egy FKSE ösztöndíj keretében részt vettem az Oreste3 Nemzetközi
+                    Képzőművészeti Workshop-on Olaszországban.</p>
+                <p>1998-ban megnyertem az Egri Országos Akvarell Biennálé különdíját.</p>
+                <p>A Buharov testvérekkel közösen folytatott függetlenfilmes tevékenységünkkel a
+                        kilencvenes évek végén, számos hazai és nemzetközi fesztivál díjait nyertük meg.</p>
+                <p>Több évig Fiatal Képzőművészek Stúdiója tag voltam, rendszeres önálló és
+                    csoportos kiállításokon és alkotótáborokon vettem részt.</p>
                 <p>
-                    Ismereteimet folyamatosan bővítem, napi rendszerességgel tanulok.
-                    A célom, hogy tudásom a legújabb webes technológiákból, mindig naprakész legyen.
+                    Szabadidőmben, óvodás korom óta gyakran festek és rajzolok.
                 </p>
             </div>
             <div class="buttons-wrapper" id="webbuttons">
                 <div class="buttons-container">
-                    <a href="portfolio.html" class="button btn-main">
+                    <a href="portfolio.html" class="button btn-dark">
                         <span class="button__mask"></span>
                         <span class="button__text">
                             <h3><i class="fas fa-paint-brush"></i> Portfólió</h3>
@@ -97,22 +110,14 @@
                             <h3><i class="fas fa-paint-brush"></i> Portfólió</h3>
                         </span>
                     </a>
-                    <a href="webdevskills.html" class="button btn-main">
+
+                    <a href="contact.html" class="button btn-dark">
                         <span class="button__mask"></span>
                         <span class="button__text">
-                            <h3><i class="fab fa-github"></i> Referenciák</h3>
+                            <h3><i class="fas fa-link"></i> Kapcsolat</h3>
                         </span>
                         <span class="button__text button__text--bis">
-                            <h3><i class="fab fa-github"></i> Referenciák</h3>
-                        </span>
-                    </a>
-                    <a href="contact.html" class="button btn-main">
-                        <span class="button__mask"></span>
-                        <span class="button__text">
-                            <h3><i class="fas fa-pencil-alt"></i> Kapcsolat</h3>
-                        </span>
-                        <span class="button__text button__text--bis">
-                            <h3><i class="fas fa-pencil-alt"></i> Kapcsolat</h3>
+                            <h3><i class="fas fa-link"></i> Kapcsolat</h3>
                         </span>
                     </a>
                 </div>
@@ -154,16 +159,18 @@
         var myChart = new Chart(ctx, {
             type: 'horizontalBar',
             data: {
-                labels: ["Photoshop","Illustrator","Krita","InDesign","Figma","Adobe XD",
-                "AfterEffects","Moho","Adobe Animate","Toon Boom","TV Paint","Maya",
-                "Zbrush","Keyshot","Houdini","Fusion","Nuke","Premier","Szabadkézi rajz","Festészet"
+                labels: ["Photoshop", "Illustrator", "Krita", "InDesign", "Figma", "Adobe XD",
+                    "AfterEffects", "Moho", "Adobe Animate", "Toon Boom", "TV Paint", "Maya",
+                    "Zbrush", "Keyshot", "Houdini", "Fusion", "Nuke", "Premier", "Szabadkézi rajz",
+                    "Festészet"
                 ],
                 datasets: [{
-                    label: 'nyelvtudás: ',
-                    data: [99,99,99,80,65,30,82,91,60,30,15,83,70,63,6,50,20,40,93,88
+                    label: 'tudásszint',
+                    data: [99, 99, 99, 80, 65, 30, 82, 91, 60, 30, 15, 83, 70, 63, 6, 50, 20, 40, 93,
+                        88
 
                     ],
-                    backgroundColor: 'rgba(0, 190, 143, 0.45)',
+                    backgroundColor: 'rgb(0, 118, 135)',
                     borderColor: 'rgb(0, 190, 143)',
                     borderWidth: 1
                 }]

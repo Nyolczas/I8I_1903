@@ -8,14 +8,24 @@
 .chart-container {
     display: flex;
     align-content: stretch;
+    flex-direction: column;
+}
+
+.spacer {
+    height: 6.9rem;
+    width: 100px;
 }
 
 #myChart {
     max-width: 69vw;
     padding: 0;
     margin: 0;
+    height: 100%;
 }
 
+.chart {
+    flex-grow: 8;
+}
 
 .text-container {
     max-width: 400px;
@@ -38,6 +48,10 @@
     .duplaoszlop {
         flex-direction: column;
     }
+    
+.spacer {
+    display: none;
+}
 
     #myChart {
         width: calc(65vw - 3rem);

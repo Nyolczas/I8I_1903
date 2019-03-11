@@ -137,6 +137,13 @@ h5 {
         url(../img/code.jpg);
 }
 
+.header-graphic {
+    background-image: linear-gradient(to right,
+        rgba(0, 150, 173, 0.65),
+        rgba(0, 94, 46, 0.65)),
+        url(../img/graphic.jpg);
+}
+
 .header-cv {
     background-image: linear-gradient(to right,
         rgba(0, 150, 173, 0.75),
@@ -202,29 +209,6 @@ h5 {
     font-style: italic;
     font-weight: 100;
 }
-
-/* button adjust */
-.buttons-wrapper {
-    margin-top: 60px;
-    display: flex;
-    align-items: stretch;
-    width: 100%;
-}
-
-.buttons-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.btn-main {
-    flex-grow: 1;
-    margin: 0.8rem;
-}
-
-/* button adjust --- end */
 
 /* =============================== unique pages =============================== */
 /* -------------------------- főoldal -------------------------- */
