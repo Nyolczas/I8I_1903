@@ -315,6 +315,12 @@ h5 {
     margin: 1rem 0 0 -0.3rem;
 }
 
+.boss-container {
+    margin: 35px 0;
+    background: linear-gradient(to right, var(--midBg), var(--darkBg));
+    min-height: 150px;
+}
+
 /* =============================== unique pages --- end =============================== */
 
 /* footer */
