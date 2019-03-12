@@ -172,8 +172,8 @@ h5 {
 
 .contactBg {
     background-image: linear-gradient(to right,
-        rgba(0, 150, 173, 0.7),
-        rgba(0, 94, 46, 0.7)),
+        rgba(0, 150, 173, 0.5),
+        rgba(0, 94, 46, 0.5)),
         url(../img/kapcsolatBig.jpg);
     background-position: center;
     background-size: cover;
