@@ -321,10 +321,6 @@ h5 {
     padding: 0.6rem 0;
 }
 
-.button {
-    margin: 0.6rem;
-}
-
 @media screen and (max-width: 1118px) {
     .duplaoszlop {
         flex-direction: column;

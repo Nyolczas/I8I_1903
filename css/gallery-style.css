@@ -34,35 +34,37 @@
   right: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.35);
-  -webkit-transform:  translateX(-65%) rotate(-45deg);
-          transform:  translateX(-65%) rotate(-45deg);
+  -webkit-transform: translateX(-65%) rotate(-45deg);
+  transform: translateX(-65%) rotate(-45deg);
   transition: all 0.3s;
 }
 
 .button:hover .single__mask {
   -webkit-animation: single-mask-anim 0.7s linear;
-          animation: single-mask-anim 0.7s linear;
+  animation: single-mask-anim 0.7s linear;
 }
 
 @-webkit-keyframes single-mask-anim {
   0% {
     -webkit-transform: translateX(-65%) rotate(-45deg);
-            transform: translateX(-65%) rotate(-45deg);
+    transform: translateX(-65%) rotate(-45deg);
   }
+
   100% {
     -webkit-transform: translateX(65%) rotate(-45deg);
-            transform: translateX(65%) rotate(-45deg);
+    transform: translateX(65%) rotate(-45deg);
   }
 }
 
 @keyframes single-mask-anim {
   0% {
     -webkit-transform: translateX(-65%) rotate(-45deg);
-            transform: translateX(-65%) rotate(-45deg);
+    transform: translateX(-65%) rotate(-45deg);
   }
+
   100% {
     -webkit-transform: translateX(65%) rotate(-45deg);
-            transform: translateX(65%) rotate(-45deg);
+    transform: translateX(65%) rotate(-45deg);
   }
 }
 
@@ -99,6 +101,7 @@
   align-items: center;
 }
 
+
 .bottom {
   height: var(--modalBottom);
   display: flex;
@@ -115,6 +118,7 @@
   overflow: hidden;
 }
 
+
 .column-4 {
   width: calc(100vw / 4);
   overflow: hidden;
@@ -128,6 +132,24 @@
 .column-6 {
   width: calc(100vw / 6);
   overflow: hidden;
+}
+
+/* animációs videók kis méretben sorbarendezve 
+preview oszlopok felezése*/
+@media screen and (max-width: 888px) {
+  .column-3-fullwidth{
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .column-3-fullwidth iframe {
+    display: block;
+    margin: auto;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }  
 }
 
 .demo {
