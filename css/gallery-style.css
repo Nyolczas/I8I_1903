@@ -10,6 +10,24 @@
   --modalBottom: 6vh;
 }
 
+/*  ============================= portfolio-main ============================= */
+
+
+.flexwrapcenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -10px;
+}
+
+.imagebutton {
+  overflow: hidden;
+  width: 283px;
+  height: 158px;
+margin: 5px;
+}
+
+/*  ============================= portfolio-main end ============================= */
 .block {
   margin: 2.5rem 0px;
 }

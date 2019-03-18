@@ -40,6 +40,10 @@ h5 {
     letter-spacing: 0.11rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 .widthwrapper {
     /* width: 100vw; */
     max-width: 1140px;
