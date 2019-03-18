@@ -1,6 +1,7 @@
 /* button */
 .buttons-wrapper {
   margin-top: 60px;
+  margin-bottom: 3rem;
   display: flex;
   align-items: stretch;
   width: 100%;

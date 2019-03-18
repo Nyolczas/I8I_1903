@@ -10,7 +10,7 @@
   --modalBottom: 6vh;
 }
 
-/*  ============================= portfolio-main ============================= */
+/*  ============================= portfolio-new ============================= */
 
 
 .flexwrapcenter {
@@ -20,14 +20,27 @@
   margin: 4rem -10px;
 }
 
+.multicontent {
+  margin: 1.5rem -10px 5rem -10px;
+}
+
 .imagebutton {
   overflow: hidden;
   width: 283px;
   height: 158px;
-margin: 5px;
+  margin: 5px;
 }
 
-/*  ============================= portfolio-main end ============================= */
+.conceptbutton {
+  height:144px;
+}
+
+.portfolohead {
+  font-size: 1.5rem;;
+  margin: 1.2rem 0 0.1rem 0;
+}
+
+/*  ============================= portfolio-new end ============================= */
 .block {
   margin: 2.5rem 0px;
 }
@@ -110,6 +123,7 @@ margin: 5px;
   justify-content: space-between;
   padding: 0.3rem;
   margin-bottom: 0.2rem;
+  width: 100%;
 }
 
 .row {
@@ -155,7 +169,7 @@ margin: 5px;
 /* animációs videók kis méretben sorbarendezve 
 preview oszlopok felezése*/
 @media screen and (max-width: 888px) {
-  .column-3-fullwidth{
+  .column-3-fullwidth {
     width: 100vw;
     overflow: hidden;
   }
@@ -167,7 +181,7 @@ preview oszlopok felezése*/
 
   .row {
     flex-wrap: wrap;
-  }  
+  }
 }
 
 .demo {
