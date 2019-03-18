@@ -35,6 +35,22 @@
   height:144px;
 }
 
+.karakterbutton {
+  width: 136px;
+  height:136px;
+}
+
+.mattebutton {
+  width: 430px;
+  height:150px;
+}
+
+.reel {
+  width: 560px;
+  height: 315px;
+
+}
+
 .portfolohead {
   font-size: 1.5rem;;
   margin: 1.2rem 0 0.1rem 0;
