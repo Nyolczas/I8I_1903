@@ -56,6 +56,18 @@
   margin: 1.2rem 0 0.1rem 0;
 }
 
+.webbutton {
+  width: 430px;
+  height: 500px;
+}
+
+.commentbox {
+  width:100%;
+  height: 280px;
+  padding: 2rem;
+  color: var(--midBg);
+}
+
 /*  ============================= portfolio-new end ============================= */
 .block {
   margin: 2.5rem 0px;
