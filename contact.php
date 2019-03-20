@@ -70,27 +70,34 @@
     <main class="widthwrapper site-content">
         <section class="contentwrapper">
             <h1 class="bighead center"> Lépjünk kapcsolatba! </h1>
-            <!-- <div class="form-container">
-                <form action="mail_handler.php" method="POST" name="form">
-                    <div class="felado-container">
-                        <div class="felado">
-                            <label for="name">Nevem:</label> <br>
-                            <input type="text" id="name" name="name" placeholder="...">
-                        </div>
-                        <div class="space"></div>
-                        <div class="felado">
-                            <label for="email">Email címem:</label> <br>
-                            <input type="email" id="email" name="email" placeholder="...@...">
-                        </div>
-                    </div>
+            <div class="form-container">
 
-                    <label for="subject">Üzenetem:</label> <br>
-                    <textarea id="subject" name="subject" placeholder="..." style="height:200px"></textarea>
-
-                    <input type="submit" value="Küldés">
-
-                </form>
-            </div> -->
+            <?php
+if (isset($_REQUEST['email']))
+//if "email" is filled out, send email
+  {
+  //send email
+  $email = $_REQUEST['email'] ; 
+  $subject = $_REQUEST['subject'] ;
+  $message = $_REQUEST['message'] ;
+  mail( "nyolczas@gmail.com", "Subject: $subject",
+  $message);
+  echo "Thank you for using our mail form";
+  }
+else
+//if "email" is not filled out, display the form
+  {
+  echo "<form method='post' action='contact.php'>
+  Email: <input name='email' type='text' /><br />
+  Subject: <input name='subject' type='text' /><br />
+  Message:<br />
+  <textarea name='message' rows='15' cols='40'>
+  </textarea><br />
+  <input type='submit' />
+  </form>";
+  }
+?>
+            </div>
             <div class="icons-container">
 
                 <a href="tel:+36703258987" class="kapcsolat-container">
