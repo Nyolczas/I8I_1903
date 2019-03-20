@@ -17,46 +17,14 @@
 
 <body class="contactBg">
     <div class="sticky">
-        <nav class="widthwrapper">
-            <div id="box1" class="nemani">
-                <span class="menu__mask" id="menuMask"></span>
-                <div class="menusor">
-                    <ul>
-                        <li>
-                            <a id="link" class="link" href="index.html">Nyolczas István<span></span><span></span></a>
-                        </li>
-                        <li>
-                            <a class="link" href="webdevskills.html">Webfejlesztő<span></span><span></span></a>
-                        </li>
-                        <li>
-                            <a class="link" href="graphic.html">Grafikus<span></span><span></span></a>
-                        </li>
-                        <li>
-                            <a class="link" href="portfolio.html">Portfólió<span></span><span></span></a>
-                        </li>
-                        <li>
-                            <a class="link" href="bio.html">Önéletrajz<span></span><span></span></a>
-                        </li>
-                        <li>
-                            <a class="link" href="contact.html">Kapcsolat<span></span><span></span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="hambi" onclick="change(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-            <div id="taki" class="taki"></div>
-        </nav>
+        <!-- ===================== myNav.php ===================== -->
+        <?php include "./includes/myNav.php"; ?>
+
         <header class="header header-contact">
-            <div class="head-container widthwrapper">
-                <div class="logo-container">
-                    <a href="index.html"><img src="img/logo8_green.png" alt="logo8_green" id="logo8"></a>
-                </div>
-                <div class="nev-container">
-                    <h1>Nyolczas István</h1>
+
+        <!-- ===================== headerHead.php ===================== -->   
+            <?php include "./includes/headerHead.php"; ?>
+
                     <p><i>Kapcsolat</i> </p>
                 </div>
                 <div class="menuspacer"></div>
@@ -86,7 +54,7 @@ if (isset($_REQUEST['email']))
   mail( "nyolczas@gmail.com", "Subject: $subject",
   $message);
   echo '<p class="bighead center"> Sikeres üzenetküldés! </p>
-  <h3 class="bighead center"> Kedves '.$name .'! Köszönöm az üzeneted, hamarosan válszolni fogok. </h3>';
+  <h3 class="whitehead center"> Kedves '.$name .'! Köszönöm az üzeneted, hamarosan válszolni fogok. </h3>';
   }
 else
 //if "email" is not filled out, display the form
@@ -97,39 +65,23 @@ else
     <form method='post' action='contact.php' name=\"form\">
     <div class=\"felado-container\">
         <div class=\"felado\">
-            <label for=\"name\">Nevem:</label> <br>
+            <label for=\"name\">Neved:</label> <br>
             <input type=\"text\" id=\"name\" name=\"name\">
         </div>
         <div class=\"space\"></div>
         <div class=\"felado\">
-            <label for=\"email\">Email címem:</label> <br>
+            <label for=\"email\">Email címed:</label> <br>
             <input type=\"email\" id=\"email\" name=\"email\">
         </div>
         </div>
-        <label for=\"subject\">Üzenetem:</label> <br>
+        <label for=\"subject\">Üzeneted:</label> <br>
                     <textarea id=\"subject\" name=\"subject\" style=\"height:200px\"></textarea>
         <input type='submit' value=\"Küldés\"/>
     </form>
   </div>";
   }
 ?>
-            <div class="icons-container">
-
-                <a href="tel:+36703258987" class="kapcsolat-container">
-                    <div class="icongrp center">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <h2 class="center">Telefon</h2>
-                    <p class="center">+36 70 325 8987</p>
-                </a>
-                <a href="mailto:nyolczas@gmail.com" class="kapcsolat-container">
-                    <div class="icongrp center">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                    <h2 class="center">E-mail</h2>
-                    <p class="center">nyolczas@gmail.com</p>
-                </a>
-            </div>
+            
 
         </section>
     </main>

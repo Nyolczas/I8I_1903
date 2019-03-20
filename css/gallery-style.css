@@ -58,12 +58,11 @@
 
 .webbutton {
   width: 430px;
-  height: 500px;
+  height: 100%;
 }
 
 .commentbox {
   width:100%;
-  height: 280px;
   padding: 2rem;
   color: var(--midBg);
 }

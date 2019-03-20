@@ -16,50 +16,13 @@
 
 <body>
     <div class="sticky">
-        <!-- ===================== BEGIN myNav.php ===================== -->
-        
-        <nav class="widthwrapper">
-            <div id="box1" class="nemani">
-                <span class="menu__mask" id="menuMask"></span>
-                <div class="menusor">
-                    <ul>
-                        <li>
-                            <a id="link" class="link" href="index.html">Nyolczas István<span></span><span></span></a>
-                        </li>
-                        <li>
-                            <a class="link" href="webdevskills.html">Webfejlesztő<span></span><span></span></a>
-                        </li>
-                        <li>
-                            <a class="link" href="graphic.html">Grafikus<span></span><span></span></a>
-                        </li>
-                        <li>
-                            <a class="link" href="portfolio.html">Portfólió<span></span><span></span></a>
-                        </li>
-                        <li>
-                            <a class="link" href="bio.html">Önéletrajz<span></span><span></span></a>
-                        </li>
-                        <li>
-                            <a class="link" href="contact.html">Kapcsolat<span></span><span></span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="hambi" onclick="change(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-            <div id="taki" class="taki"></div>
-        </nav>
-        <!-- ===================== End myNav.php ===================== -->
+        <!-- ===================== myNav.php ===================== -->
+        <?php include "./includes/myNav.php"; ?>
 
         <header class="header header-cv">
-            <div class="head-container widthwrapper">
-                <div class="logo-container">
-                    <a href="index.html"><img src="img/logo8_green.png" alt="logo8_green" id="logo8"></a>
-                </div>
-                <div class="nev-container">
-                    <h1>Nyolczas István</h1>
+        <!-- ===================== headerHead.php ===================== -->   
+            <?php include "./includes/headerHead.php"; ?>
+
                     <p><i>Önéletrajz</i> </p>
                 </div>
                 <div class="menuspacer"></div>
