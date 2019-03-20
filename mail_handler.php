@@ -6,9 +6,9 @@ if(isset($_POST['submit'])){
 
     $to = 'nyyolczas@gmail.com';
     $targy = 'Kontakt Form a Nyolczas.hu-ról!';
-    $message = 'Üzenetküldő: '.$name .'\n'
-                .'a '. $email .' emailcímről'. '\n'
-                .'az alábbi üzenetet küldte:'. '\n'
+    $message = 'Üzenetküldő: '.$name 
+                ."\n".'a '. $email .
+                ' emailcímről az alábbi üzenetet küldte:'. "\n"."\n"
                 .$subject;
     $headers = "Kontakt Form: ".$email;
     

@@ -526,7 +526,9 @@ input[type=submit] {
     flex-grow: 1;
     background: radial-gradient(var(--darkBg), #4CAF50);
     margin: 0.8rem auto;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 0.12rem;
     padding: 0.6rem 1.8rem;
     border:none;
     float: right;

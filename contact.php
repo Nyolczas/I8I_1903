@@ -69,8 +69,7 @@
 
     <main class="widthwrapper site-content">
         <section class="contentwrapper">
-            <h1 class="bighead center"> Lépjünk kapcsolatba! </h1>
-            <div class="form-container">
+            
 
             <?php
 if (isset($_REQUEST['email']))
@@ -78,26 +77,42 @@ if (isset($_REQUEST['email']))
   {
   //send email
   $email = $_REQUEST['email'] ; 
-  $subject = $_REQUEST['subject'] ;
-  $message = $_REQUEST['message'] ;
+  $name = $_REQUEST['name'];
+  $subject = $name.' üzenetet küldött' ;
+  $message = $name .' az alábbi üzenetet küldte a '.
+                $email.' email címről:'."\n \n".
+                $_REQUEST['subject'] ;
+
   mail( "nyolczas@gmail.com", "Subject: $subject",
   $message);
-  echo "Thank you for using our mail form";
+  echo '<p class="bighead center"> Sikeres üzenetküldés! </p>
+  <h3 class="bighead center"> Kedves '.$name .'! Köszönöm az üzeneted, hamarosan válszolni fogok. </h3>';
   }
 else
 //if "email" is not filled out, display the form
   {
-  echo "<form method='post' action='contact.php'>
-  Email: <input name='email' type='text' /><br />
-  Subject: <input name='subject' type='text' /><br />
-  Message:<br />
-  <textarea name='message' rows='15' cols='40'>
-  </textarea><br />
-  <input type='submit' />
-  </form>";
+  echo "
+  <h1 class=\"bighead center\"> Lépjünk kapcsolatba! </h1>
+  <div class=\"form-container\">
+    <form method='post' action='contact.php' name=\"form\">
+    <div class=\"felado-container\">
+        <div class=\"felado\">
+            <label for=\"name\">Nevem:</label> <br>
+            <input type=\"text\" id=\"name\" name=\"name\">
+        </div>
+        <div class=\"space\"></div>
+        <div class=\"felado\">
+            <label for=\"email\">Email címem:</label> <br>
+            <input type=\"email\" id=\"email\" name=\"email\">
+        </div>
+        </div>
+        <label for=\"subject\">Üzenetem:</label> <br>
+                    <textarea id=\"subject\" name=\"subject\" style=\"height:200px\"></textarea>
+        <input type='submit' value=\"Küldés\"/>
+    </form>
+  </div>";
   }
 ?>
-            </div>
             <div class="icons-container">
 
                 <a href="tel:+36703258987" class="kapcsolat-container">
