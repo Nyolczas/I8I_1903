@@ -65,16 +65,16 @@ else
     <form method='post' action='contact.php' name=\"form\">
     <div class=\"felado-container\">
         <div class=\"felado\">
-            <label for=\"name\">Neved:</label> <br>
+            <label for=\"name\">Név:</label> <br>
             <input type=\"text\" id=\"name\" name=\"name\">
         </div>
         <div class=\"space\"></div>
         <div class=\"felado\">
-            <label for=\"email\">Email címed:</label> <br>
+            <label for=\"email\">Email cím:</label> <br>
             <input type=\"email\" id=\"email\" name=\"email\">
         </div>
         </div>
-        <label for=\"subject\">Üzeneted:</label> <br>
+        <label for=\"subject\">Üzenet:</label> <br>
                     <textarea id=\"subject\" name=\"subject\" style=\"height:200px\"></textarea>
         <input type='submit' value=\"Küldés\"/>
     </form>
