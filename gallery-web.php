@@ -43,6 +43,14 @@
             <div class="flexwrapcenter multicontent">
 
                 <div class="imagebutton webbutton">
+                    <img src="img/webdesign/smalls/sugar.jpg" alt="Sugar Fondant webdesign" class="hover-shadow cursor" onclick="openModal('Modal_Sugi');currentSlide(1,1)">
+                    <div class="commentbox">
+                                    <h4>Sugar Fondant</h4>
+                                    <p>Webdesign <br><br>
+                                        <em>webdesign és illusztrációk készítése</em> </p>
+                            </div>
+                </div>
+                <div class="imagebutton webbutton">
                     <a href="#" >
                         <img src="img/webdesign/smalls/w_01.jpg" alt="Webdesign" class="hover-shadow cursor">
                         <div class="commentbox">
@@ -51,7 +59,6 @@
                                 <em>WebDesign, Html, Php, CSS, JavaScript, jQuery</em> </p>
                         </div>
                     </a>
-
                 </div>
                 <div class="imagebutton webbutton">
                         <a href="http://utasellatokavehaz.hu/" target="_blank" rel="noopener noreferrer">
@@ -148,8 +155,38 @@
         </div>
     </footer>
     <!-- [x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x] --- MODALS --- [x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x] -->
+    <div id="Modal_Sugi" class="modal">
+        <span class="close cursor" onclick="closeModal('Modal_Sugi')">&times;</span>
+        <div class="modal-content">
+            <div class="prewiev-container">
+                <div class="mySlides mySlides-1">
+                    <div class="numbertext">1 / 1</div>
+                    <img src="img/webdesign/sugar.jpg">
+                </div>
+ 
 
 
+
+                <a class="prev" onclick="plusSlides(1,-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+            </div>
+
+
+            <div class="caption-container">
+                <p id="caption1"></p>
+            </div>
+
+            <div class="bottom">
+                <div class="bottom--img-container">
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugar.jpg" onclick="currentSlide(1,1)"
+                        alt="Sugar Fondant webdesign">
+                </div>
+           
+
+            </div>
+        </div>
+    </div>
+    
     <!-- [x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x] --- MODALS END --- [x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x] -->
 
     <script src="js/menu.js"></script>
