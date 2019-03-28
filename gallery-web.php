@@ -46,40 +46,32 @@
                     <img src="img/webdesign/smalls/sugar.jpg" alt="Sugar Fondant webdesign" class="hover-shadow cursor" onclick="openModal('Modal_Sugi');currentSlide(1,1)">
                     <div class="commentbox">
                                     <h4>Sugar Fondant</h4>
-                                    <p>Webdesign <br><br>
+                                    <p>csak design <br><br>
                                         <em>webdesign és illusztrációk készítése</em> </p>
                             </div>
-                </div>
-                <div class="imagebutton webbutton">
-                    <a href="#" >
-                        <img src="img/webdesign/smalls/w_01.jpg" alt="Webdesign" class="hover-shadow cursor">
-                        <div class="commentbox">
-                            <h4>nyolczas.hu</h4>
-                            <p>Ez az oldal. :) <br> <br>
-                                <em>WebDesign, Html, Php, CSS, JavaScript, jQuery</em> </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="imagebutton webbutton">
-                        <a href="http://utasellatokavehaz.hu/" target="_blank" rel="noopener noreferrer">
-                            <img src="img/webdesign/smalls/w_02.jpg" alt="Webdesign" class="hover-shadow cursor">
-                            <div class="commentbox">
-                                    <h4>utasellatokavehaz.hu</h4>
-                                    <p>Az Utasellátó Kávéház weboldala. <br> (statikus weoldal)<br> <br>
-                                        <em>Logó tervezés, WebDesign, Html, CSS, Bootstrap, JavaScript, jQuery</em> </p>
-                            </div>
-                        </a>
                 </div>
                 <div class="imagebutton webbutton">
                     <a href="premium-dance-shows.html" target="_blank" rel="noopener noreferrer">
                         <img src="img/webdesign/smalls/w_03.jpg" alt="Webdesign" class="hover-shadow cursor">
                         <div class="commentbox">
                                 <h4>Pricelist</h4>
-                                <p>Egy oldal a Freelusion árlistájából. Az eredeti PHP-ben volt kódolva, lapszintű védelemmel. Az oldal jelenleg nem üzemel.<br> <br>
+                                <p>Freelusion árlista - design és kód<br> <br>
                                     <em>WebDesign, PHP, CSS, Bootstrap, JavaScript, jQuery</em> </p>
                         </div>
                     </a>
                 </div>
+                
+                <div class="imagebutton webbutton">
+                        <a href="http://utasellatokavehaz.hu/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/webdesign/smalls/w_02.jpg" alt="Webdesign" class="hover-shadow cursor">
+                            <div class="commentbox">
+                                    <h4>utasellatokavehaz.hu</h4>
+                                    <p>Az Utasellátó Kávéház weboldala. - design és kód <br> (statikus weoldal)<br> <br>
+                                        <em>Logó tervezés, WebDesign, Html, CSS, Bootstrap, JavaScript, jQuery</em> </p>
+                            </div>
+                        </a>
+                </div>
+                
                 <div class="imagebutton webbutton">
                     <a href="budget.html" target="_blank" rel="noopener noreferrer">
                         <img src="img/webdesign/smalls/w_04.jpg" alt="Webdesign" class="hover-shadow cursor">
@@ -110,7 +102,16 @@
                             </div>
                             </a>
                 </div>
-                
+                <div class="imagebutton webbutton">
+                    <a href="#" >
+                        <img src="img/webdesign/smalls/w_01.jpg" alt="Webdesign" class="hover-shadow cursor">
+                        <div class="commentbox">
+                            <h4>nyolczas.hu</h4>
+                            <p>Ez az oldal. :) <br> <br>
+                                <em>WebDesign, Html, Php, CSS, JavaScript, jQuery</em> </p>
+                        </div>
+                    </a>
+                </div>
                 
 
             </div>
@@ -161,7 +162,47 @@
             <div class="prewiev-container">
                 <div class="mySlides mySlides-1">
                     <div class="numbertext">1 / 1</div>
-                    <img src="img/webdesign/sugar.jpg">
+                    <img src="img/webdesign/sugi_02.jpg" alt="Sugar Fondant webdesign">
+                </div>
+                <div class="mySlides mySlides-1">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="img/webdesign/sugi_03.jpg" alt="Sugar Fondant webdesign">
+                </div>
+                <div class="mySlides mySlides-1">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img/webdesign/sugi_04.jpg" alt="Sugar Fondant webdesign">
+                </div>
+                <div class="mySlides mySlides-1">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="img/webdesign/sugi_05.jpg" alt="Sugar Fondant webdesign">
+                </div>
+                <div class="mySlides mySlides-1">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="img/webdesign/sugi_06.jpg" alt="Sugar Fondant webdesign">
+                </div>
+                <div class="mySlides mySlides-1">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="img/webdesign/sugi_07.jpg" alt="Sugar Fondant webdesign">
+                </div>
+                <div class="mySlides mySlides-1">
+                    <div class="numbertext">1 / 7</div>
+                    <img src="img/webdesign/sugi_08.jpg" alt="Sugar Fondant webdesign">
+                </div>
+                <div class="mySlides mySlides-1">
+                    <div class="numbertext">1 / 8</div>
+                    <img src="img/webdesign/sugi_09.jpg" alt="Sugar Fondant webdesign">
+                </div>
+                <div class="mySlides mySlides-1">
+                    <div class="numbertext">1 / 9</div>
+                    <img src="img/webdesign/sugi_10.jpg" alt="Sugar Fondant webdesign">
+                </div>
+                <div class="mySlides mySlides-1">
+                    <div class="numbertext">1 / 10</div>
+                    <img src="img/webdesign/sugi_11.jpg" alt="Sugar Fondant webdesign">
+                </div>
+                <div class="mySlides mySlides-1">
+                    <div class="numbertext">1 / 11</div>
+                    <img src="img/webdesign/sugi_12.jpg" alt="Sugar Fondant webdesign">
                 </div>
  
 
@@ -178,7 +219,47 @@
 
             <div class="bottom">
                 <div class="bottom--img-container">
-                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugar.jpg" onclick="currentSlide(1,1)"
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugi_02.jpg" onclick="currentSlide(1,1)"
+                        alt="Sugar Fondant webdesign">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugi_03.jpg" onclick="currentSlide(1,2)"
+                        alt="Sugar Fondant webdesign">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugi_04.jpg" onclick="currentSlide(1,3)"
+                        alt="Sugar Fondant webdesign">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugi_05.jpg" onclick="currentSlide(1,4)"
+                        alt="Sugar Fondant webdesign">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugi_06.jpg" onclick="currentSlide(1,5)"
+                        alt="Sugar Fondant webdesign">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugi_07.jpg" onclick="currentSlide(1,6)"
+                        alt="Sugar Fondant webdesign">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugi_08.jpg" onclick="currentSlide(1,7)"
+                        alt="Sugar Fondant webdesign">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugi_09.jpg" onclick="currentSlide(1,8)"
+                        alt="Sugar Fondant webdesign">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugi_10.jpg" onclick="currentSlide(1,9)"
+                        alt="Sugar Fondant webdesign">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugi_11.jpg" onclick="currentSlide(1,10)"
+                        alt="Sugar Fondant webdesign">
+                </div>
+                <div class="bottom--img-container">
+                    <img class="demo1 demo cursor" src="img/webdesign/smalls/sugi_12.jpg" onclick="currentSlide(1,11)"
                         alt="Sugar Fondant webdesign">
                 </div>
            
