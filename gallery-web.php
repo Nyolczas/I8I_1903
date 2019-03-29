@@ -46,8 +46,8 @@
                     <img src="img/webdesign/smalls/sugar.jpg" alt="Sugar Fondant webdesign" class="hover-shadow cursor" onclick="openModal('Modal_Sugi');currentSlide(1,1)">
                     <div class="commentbox">
                                     <h4>Sugar Fondant</h4>
-                                    <p>csak design <br><br>
-                                        <em>webdesign és illusztrációk készítése</em> </p>
+                                    <p>Web design <br><br>
+                                        <em>webdesign, 2D és 3D illusztrációk készítése</em> </p>
                             </div>
                 </div>
                 <div class="imagebutton webbutton">
