@@ -277,6 +277,12 @@ a {
     margin: auto;
 }
 
+.centerflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* =============================== unique pages =============================== */
 /* -------------------------- főoldal -------------------------- */
 
@@ -487,7 +493,7 @@ a {
     margin-bottom: 2rem;
 }
 
-.form-container{
+.form-container {
     margin-bottom: 7rem;
 }
 
@@ -539,7 +545,7 @@ input[type=submit] {
     font-weight: 400;
     letter-spacing: 0.12rem;
     padding: 0.6rem 1.8rem;
-    border:none;
+    border: none;
     float: right;
     min-width: 25%;
     opacity: 0.72;

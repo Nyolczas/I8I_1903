@@ -57,7 +57,7 @@
             </div>
             <div class="buttons-wrapper" id="webbuttons">
                 <div class="buttons-container">
-                    <a href="https://github.com/Nyolczas" class="button btn-dark">
+                    <a href="https://github.com/Nyolczas" target="blank" class="button btn-dark">
                         <span class="button__mask"></span>
                         <span class="button__text">
                             <h3><i class="fab fa-github"></i> Referenciák</h3>
@@ -90,27 +90,11 @@
             </div>
         </section>
     </main>
+    
+    <?php include "./includes/footer.php"; ?>
+
     <!-- content - end -->
 
-    <footer>
-        <div class="footerline widthwrapper">
-            <div class="contentwrapper">
-                <div class="footercontent">
-                    <p>&copy
-                        <i>Nyolczas István
-                            <span id="year"></span></i>
-                    </p>
-
-                    <a href="tel:+36703258987"><i class="fas fa-phone-square"></i> +36 70 325 8987</a>
-
-                    <a href="mailto:nyolczas@gmail.com"> <i class="fas fa-envelope"></i> nyolczas@gmail.com</a>
-
-                    <a href="https://github.com/Nyolczas" target="_blank"><i class="fab fa-github"></i></a>
-
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <script src="js/menu.js"></script>

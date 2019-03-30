@@ -8,8 +8,8 @@
     <title>Nyolczas - Portfólió Concept Art</title>
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/menu.css">
@@ -23,15 +23,15 @@
         <?php include "./includes/myNav.php"; ?>
 
         <header class="header header-concept">
-            <!-- ===================== headerHead.php ===================== -->   
+            <!-- ===================== headerHead.php ===================== -->
             <?php include "./includes/headerHead.php"; ?>
 
-                        <p><i>Concept Art portfólió</i> </p>
-                    </div>
-                    <div class="menuspacer"></div>
-                </div>
-            </div>
-        </header>
+            <p><i>Concept Art portfólió</i> </p>
+    </div>
+    <div class="menuspacer"></div>
+    </div>
+    </div>
+    </header>
     </div>
 
     <!-- ================================================= content ================================================= -->
@@ -43,59 +43,7 @@
 
                 <!-- ================================ Concept Art ================================================================ -->
 
-                <!-- 11 Karakterdesign -->
-                <div class="boardhead">
-                    <h3 class="green portfolohead">Karakter design</h3>
-                    <p></p>
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_01.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,1)">
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_02.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,2)">
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_03.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,3)">
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_04.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,4)">
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_05.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,5)">
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_06.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,6)">
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_07.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,7)">
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_08.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,8)">
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_09.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,9)">
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_10.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,10)">
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_11.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,11)">
-                </div>
-                <div class="imagebutton karakterbutton">
-                    <img src="img/illusztration/karakterdesign/smalls/ch_12.jpg" alt="Karakter design" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Karakter');currentSlide(11,12)">
-                </div>
+
 
 
                 <!-- 6 Carmina Burana concepts -->
@@ -105,41 +53,41 @@
                 </div>
 
                 <div class="imagebutton conceptbutton">
-                    <img src="img/concepts/carmina/smalls/01.jpg" alt="Carmina Burana - Luna" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Carmina');currentSlide(6,1)">
+                    <img src="img/concepts/carmina/smalls/01.jpg" alt="Carmina Burana - Luna"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Carmina');currentSlide(6,1)">
                 </div>
                 <div class="imagebutton conceptbutton">
-                    <img src="img/concepts/carmina/smalls/02.jpg" alt="Carmina Burana - Fortuna" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Carmina');currentSlide(6,2)">
+                    <img src="img/concepts/carmina/smalls/02.jpg" alt="Carmina Burana - Fortuna"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Carmina');currentSlide(6,2)">
                 </div>
                 <div class="imagebutton conceptbutton">
-                    <img src="img/concepts/carmina/smalls/03.jpg" alt="Carmina Burana - Wheel Of Life" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Carmina');currentSlide(6,3)">
+                    <img src="img/concepts/carmina/smalls/03.jpg" alt="Carmina Burana - Wheel Of Life"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Carmina');currentSlide(6,3)">
                 </div>
 
                 <div class="imagebutton conceptbutton">
-                    <img src="img/concepts/carmina/smalls/04.jpg" alt="Carmina Burana - Circa Mea" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Carmina');currentSlide(6,4)">
+                    <img src="img/concepts/carmina/smalls/04.jpg" alt="Carmina Burana - Circa Mea"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Carmina');currentSlide(6,4)">
                 </div>
                 <div class="imagebutton conceptbutton">
-                    <img src="img/concepts/carmina/smalls/05.jpg" alt="Carmina Burana - Dies Nox" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Carmina');currentSlide(6,5)">
+                    <img src="img/concepts/carmina/smalls/05.jpg" alt="Carmina Burana - Dies Nox"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Carmina');currentSlide(6,5)">
                 </div>
                 <div class="imagebutton conceptbutton">
-                    <img src="img/concepts/carmina/smalls/06.jpg" alt="Carmina Burana - Stetit Puela" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Carmina');currentSlide(6,6)">
+                    <img src="img/concepts/carmina/smalls/06.jpg" alt="Carmina Burana - Stetit Puela"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Carmina');currentSlide(6,6)">
                 </div>
                 <div class="imagebutton conceptbutton">
-                    <img src="img/concepts/carmina/smalls/07.jpg" alt="Carmina Burana - Tempus 1" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Carmina');currentSlide(6,7)">
+                    <img src="img/concepts/carmina/smalls/07.jpg" alt="Carmina Burana - Tempus 1"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Carmina');currentSlide(6,7)">
                 </div>
                 <div class="imagebutton conceptbutton">
-                    <img src="img/concepts/carmina/smalls/08.jpg" alt="Carmina Burana - Tempus 2" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Carmina');currentSlide(6,8)">
+                    <img src="img/concepts/carmina/smalls/08.jpg" alt="Carmina Burana - Tempus 2"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Carmina');currentSlide(6,8)">
                 </div>
                 <div class="imagebutton conceptbutton">
-                    <img src="img/concepts/carmina/smalls/09.jpg" alt="Carmina Burana - Tree Of Life" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Carmina');currentSlide(6,9)">
+                    <img src="img/concepts/carmina/smalls/09.jpg" alt="Carmina Burana - Tree Of Life"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Carmina');currentSlide(6,9)">
                 </div>
 
 
@@ -151,36 +99,36 @@
                 </div>
 
                 <div class="imagebutton">
-                    <img src="img/concepts/chris/smalls/01.jpg" alt="Chris Angel - Mindfreak 1" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Chris');currentSlide(7,1)">
+                    <img src="img/concepts/chris/smalls/01.jpg" alt="Chris Angel - Mindfreak 1"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Chris');currentSlide(7,1)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/chris/smalls/02.jpg" alt="Chris Angel - Mindfreak 2" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Chris');currentSlide(7,2)">
+                    <img src="img/concepts/chris/smalls/02.jpg" alt="Chris Angel - Mindfreak 2"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Chris');currentSlide(7,2)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/chris/smalls/03.jpg" alt="Chris Angel - Mindfreak 3" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Chris');currentSlide(7,3)">
+                    <img src="img/concepts/chris/smalls/03.jpg" alt="Chris Angel - Mindfreak 3"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Chris');currentSlide(7,3)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/chris/smalls/04.jpg" alt="Chris Angel - Mindfreak 4" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Chris');currentSlide(7,4)">
+                    <img src="img/concepts/chris/smalls/04.jpg" alt="Chris Angel - Mindfreak 4"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Chris');currentSlide(7,4)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/chris/smalls/05.jpg" alt="Chris Angel - Mindfreak 5" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Chris');currentSlide(7,5)">
+                    <img src="img/concepts/chris/smalls/05.jpg" alt="Chris Angel - Mindfreak 5"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Chris');currentSlide(7,5)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/chris/smalls/06.jpg" alt="Chris Angel - Mindfreak 6" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Chris');currentSlide(7,6)">
+                    <img src="img/concepts/chris/smalls/06.jpg" alt="Chris Angel - Mindfreak 6"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Chris');currentSlide(7,6)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/chris/smalls/07.jpg" alt="Chris Angel - Mindfreak 7" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Chris');currentSlide(7,7)">
+                    <img src="img/concepts/chris/smalls/07.jpg" alt="Chris Angel - Mindfreak 7"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Chris');currentSlide(7,7)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/chris/smalls/08.jpg" alt="Chris Angel - Mindfreak 8" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Chris');currentSlide(7,8)">
+                    <img src="img/concepts/chris/smalls/08.jpg" alt="Chris Angel - Mindfreak 8"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Chris');currentSlide(7,8)">
                 </div>
 
                 <!-- 8 Miss Universe concepts -->
@@ -190,40 +138,40 @@
                 </div>
 
                 <div class="imagebutton">
-                    <img src="img/concepts/missU/smalls/mu_1.jpg" alt="Miss Universe - Water Interaction" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Miss'); currentSlide(8,1)">
+                    <img src="img/concepts/missU/smalls/mu_1.jpg" alt="Miss Universe - Water Interaction"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Miss'); currentSlide(8,1)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/missU/smalls/mu_2.jpg" alt="Miss Universe - Water Catwalk" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Miss');currentSlide(8,2)">
+                    <img src="img/concepts/missU/smalls/mu_2.jpg" alt="Miss Universe - Water Catwalk"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Miss');currentSlide(8,2)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/missU/smalls/mu_3.jpg" alt="Miss Universe - Water Full" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Miss');currentSlide(8,3)">
+                    <img src="img/concepts/missU/smalls/mu_3.jpg" alt="Miss Universe - Water Full"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Miss');currentSlide(8,3)">
                 </div>
                 <div class="imagebutton">
                     <img src="img/concepts/missU/smalls/mu_4.jpg" alt="Miss Universe - Heaven and Hell Interaction"
                         class="hover-shadow cursor" onclick="openModal('Modal_Miss');currentSlide(8,4)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/missU/smalls/mu_5.jpg" alt="Miss Universe - Heaven and Hell Catwalk" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Miss');currentSlide(8,5)">
+                    <img src="img/concepts/missU/smalls/mu_5.jpg" alt="Miss Universe - Heaven and Hell Catwalk"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Miss');currentSlide(8,5)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/missU/smalls/mu_6.jpg" alt="Miss Universe - Heaven and Hell Full" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Miss');currentSlide(8,6)">
+                    <img src="img/concepts/missU/smalls/mu_6.jpg" alt="Miss Universe - Heaven and Hell Full"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Miss');currentSlide(8,6)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/missU/smalls/mu_7.jpg" alt="Miss Universe - Planets Interaction" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Miss');currentSlide(8,7)">
+                    <img src="img/concepts/missU/smalls/mu_7.jpg" alt="Miss Universe - Planets Interaction"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Miss');currentSlide(8,7)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/missU/smalls/mu_8.jpg" alt="Miss Universe - Planets Catwalk" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Miss');currentSlide(8,8)">
+                    <img src="img/concepts/missU/smalls/mu_8.jpg" alt="Miss Universe - Planets Catwalk"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Miss');currentSlide(8,8)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/missU/smalls/mu_9.jpg" alt="Miss Universe - Planets Full" class="hover-shadow cursor"
-                        onclick="openModal('Modal_Miss');currentSlide(8,9)">
+                    <img src="img/concepts/missU/smalls/mu_9.jpg" alt="Miss Universe - Planets Full"
+                        class="hover-shadow cursor" onclick="openModal('Modal_Miss');currentSlide(8,9)">
                 </div>
 
 
@@ -233,40 +181,40 @@
                     <p>konceptek</p>
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/tfe/smalls/tfe_01.jpg" alt="Time For English - Magic Bicycle" class="hover-shadow cursor"
-                        onclick="openModal('Modal_TFE');currentSlide(5,1)">
+                    <img src="img/concepts/tfe/smalls/tfe_01.jpg" alt="Time For English - Magic Bicycle"
+                        class="hover-shadow cursor" onclick="openModal('Modal_TFE');currentSlide(5,1)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/tfe/smalls/tfe_02.jpg" alt="Time For English - Ziggy" class="hover-shadow cursor"
-                        onclick="openModal('Modal_TFE');currentSlide(5,2)">
+                    <img src="img/concepts/tfe/smalls/tfe_02.jpg" alt="Time For English - Ziggy"
+                        class="hover-shadow cursor" onclick="openModal('Modal_TFE');currentSlide(5,2)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/tfe/smalls/tfe_03.jpg" alt="Time For English - Sunny spring day" class="hover-shadow cursor"
-                        onclick="openModal('Modal_TFE');currentSlide(5,3)">
+                    <img src="img/concepts/tfe/smalls/tfe_03.jpg" alt="Time For English - Sunny spring day"
+                        class="hover-shadow cursor" onclick="openModal('Modal_TFE');currentSlide(5,3)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/tfe/smalls/tfe_04.jpg" alt="Time For English - Fishing Day" class="hover-shadow cursor"
-                        onclick="openModal('Modal_TFE');currentSlide(5,4)">
+                    <img src="img/concepts/tfe/smalls/tfe_04.jpg" alt="Time For English - Fishing Day"
+                        class="hover-shadow cursor" onclick="openModal('Modal_TFE');currentSlide(5,4)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/tfe/smalls/tfe_05.jpg" alt="Time For English - Leaping Fish" class="hover-shadow cursor"
-                        onclick="openModal('Modal_TFE');currentSlide(5,5)">
+                    <img src="img/concepts/tfe/smalls/tfe_05.jpg" alt="Time For English - Leaping Fish"
+                        class="hover-shadow cursor" onclick="openModal('Modal_TFE');currentSlide(5,5)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/tfe/smalls/tfe_06.jpg" alt="Time For English - Clothing Stall" class="hover-shadow cursor"
-                        onclick="openModal('Modal_TFE');currentSlide(5,6)">
+                    <img src="img/concepts/tfe/smalls/tfe_06.jpg" alt="Time For English - Clothing Stall"
+                        class="hover-shadow cursor" onclick="openModal('Modal_TFE');currentSlide(5,6)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/tfe/smalls/tfe_07.jpg" alt="Time For English - Hat Stall" class="hover-shadow cursor"
-                        onclick="openModal('Modal_TFE');currentSlide(5,7)">
+                    <img src="img/concepts/tfe/smalls/tfe_07.jpg" alt="Time For English - Hat Stall"
+                        class="hover-shadow cursor" onclick="openModal('Modal_TFE');currentSlide(5,7)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/tfe/smalls/tfe_08.jpg" alt="Time For English - Shawarma" class="hover-shadow cursor"
-                        onclick="openModal('Modal_TFE');currentSlide(5,8)">
+                    <img src="img/concepts/tfe/smalls/tfe_08.jpg" alt="Time For English - Shawarma"
+                        class="hover-shadow cursor" onclick="openModal('Modal_TFE');currentSlide(5,8)">
                 </div>
                 <div class="imagebutton">
-                    <img src="img/concepts/tfe/smalls/tfe_09.jpg" alt="Time For English - Pets and Play" class="hover-shadow cursor"
-                        onclick="openModal('Modal_TFE');currentSlide(5,9)">
+                    <img src="img/concepts/tfe/smalls/tfe_09.jpg" alt="Time For English - Pets and Play"
+                        class="hover-shadow cursor" onclick="openModal('Modal_TFE');currentSlide(5,9)">
                 </div>
 
 
@@ -274,19 +222,7 @@
                 <!-- ================================ Concept Art END ================================================================ -->
             </div>
 
-            <div class="buttons-wrapper">
-                <div class="buttons-container">
-                    <a href="portfolio.php" class="button btn-dark">
-                        <span class="button__mask"></span>
-                        <span class="button__text">
-                            <h3> <i class="fas fa-briefcase"></i> Vissza a Portfólió oldalra</h3>
-                        </span>
-                        <span class="button__text button__text--bis">
-                            <h3> <i class="fas fa-briefcase"></i> Vissza a Portfólió oldalra</h3>
-                        </span>
-                    </a>
-                </div>
-            </div>
+            <?php include "./includes/gallery-navbuttons.php"; ?>
         </section>
     </main>
 
@@ -648,148 +584,14 @@
         </div>
     </div>
 
-    <!--11 Karakter-->
-    <div id="Modal_Karakter" class="modal">
-        <span class="close cursor" onclick="closeModal('Modal_Karakter')">&times;</span>
-        <div class="modal-content">
-            <div class="prewiev-container">
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">1 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_01.jpg" alt="Karakter design">
-                </div>
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">2 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_02.jpg" alt="Karakter design">
-                </div>
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">3 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_03.jpg" alt="Karakter design">
-                </div>
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">4 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_04.jpg" alt="Karakter design">
-                </div>
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">5 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_05.jpg" alt="Karakter design">
-                </div>
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">6 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_06.jpg" alt="Karakter design">
-                </div>
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">7 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_07.jpg" alt="Karakter design">
-                </div>
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">8 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_08.jpg" alt="Karakter design">
-                </div>
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">9 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_09.jpg" alt="Karakter design">
-                </div>
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">10 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_10.jpg" alt="Karakter design">
-                </div>
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">11 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_11.jpg" alt="Karakter design">
-                </div>
-                <div class="mySlides mySlides-11">
-                    <div class="numbertext">12 / 4</div>
-                    <img src="img/illusztration/karakterdesign/ch_12.jpg" alt="Karakter design">
-                </div>
 
 
-
-
-                <a class="prev" onclick="plusSlides(11,-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(11,1)">&#10095;</a>
-            </div>
-
-
-            <div class="caption-container">
-                <p id="caption11"></p>
-            </div>
-
-            <div class="bottom">
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_01.jpg" onclick="currentSlide(11,1)"
-                        alt="Karakter design">
-                </div>
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_02.jpg" onclick="currentSlide(11,2)"
-                        alt="Karakter design">
-                </div>
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_03.jpg" onclick="currentSlide(11,3)"
-                        alt="Karakter design">
-                </div>
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_04.jpg" onclick="currentSlide(11,4)"
-                        alt="Karakter design">
-                </div>
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_05.jpg" onclick="currentSlide(11,5)"
-                        alt="Karakter design">
-                </div>
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_06.jpg" onclick="currentSlide(11,6)"
-                        alt="Karakter design">
-                </div>
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_07.jpg" onclick="currentSlide(11,7)"
-                        alt="Karakter design">
-                </div>
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_08.jpg" onclick="currentSlide(11,8)"
-                        alt="Karakter design">
-                </div>
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_09.jpg" onclick="currentSlide(11,9)"
-                        alt="Karakter design">
-                </div>
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_10.jpg" onclick="currentSlide(11,10)"
-                        alt="Karakter design">
-                </div>
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_11.jpg" onclick="currentSlide(11,11)"
-                        alt="Karakter design">
-                </div>
-                <div class="bottom--img-container">
-                    <img class="demo11 demo cursor" src="img/illusztration/karakterdesign/smalls/ch_12.jpg" onclick="currentSlide(11,12)"
-                        alt="Karakter design">
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- ================================ Concept MODALS END ================================================================ -->
 
     <!-- ================================================= content - end ================================================= -->
 
-    <footer>
-        <div class="footerline widthwrapper">
-            <div class="contentwrapper">
-                <div class="footercontent">
-                    <p>&copy
-                        <i>Nyolczas István
-                            <span id="year"></span></i>
-                    </p>
-
-                    <a href="tel:+36703258987"><i class="fas fa-phone-square"></i> +36 70 325 8987</a>
-
-                    <a href="mailto:nyolczas@gmail.com"> <i class="fas fa-envelope"></i> nyolczas@gmail.com</a>
-
-                    <a href="https://github.com/Nyolczas" target="_blank"><i class="fab fa-github"></i></a>
-
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include "./includes/footer.php"; ?>
 
 
     <script src="js/menu.js"></script>

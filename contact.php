@@ -60,7 +60,7 @@ else
 //if "email" is not filled out, display the form
   {
   echo "
-  <h1 class=\"bighead center\"> Lépjünk kapcsolatba! </h1>
+  <h1 class=\"bighead center\"> Küldj egy üzenetet! </h1>
   <div class=\"form-container\">
     <form method='post' action='contact.php' name=\"form\">
     <div class=\"felado-container\">
@@ -87,25 +87,7 @@ else
     </main>
     <!-- content - end -->
 
-    <footer>
-        <div class="footerline widthwrapper">
-            <div class="contentwrapper">
-                <div class="footercontent">
-                    <p>&copy
-                        <i>Nyolczas István
-                            <span id="year"></span></i>
-                    </p>
-
-                    <a href="tel:+36703258987"><i class="fas fa-phone-square"></i> +36 70 325 8987</a>
-
-                    <a href="mailto:nyolczas@gmail.com"> <i class="fas fa-envelope"></i> nyolczas@gmail.com</a>
-
-                    <a href="https://github.com/Nyolczas" target="_blank"><i class="fab fa-github"></i></a>
-
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include "./includes/footer.php"; ?>
 
 
     <script src="js/menu.js"></script>

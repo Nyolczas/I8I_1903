@@ -68,7 +68,7 @@
                     <p>Sok évig Fiatal Képzőművészek Stúdiója tag voltam, rendszeres önálló és
                         csoportos kiállításokon és alkotótáborokon vettem részt.</p>
                     <p>
-                        Szabadidőmben, óvodás korom óta gyakran festek és rajzolok.
+                        Óvodás korom óta gyakran festek és rajzolok a szabadidőmben.
                     </p>
                 </div>
 
@@ -97,27 +97,11 @@
             </div>
         </section>
     </main>
+    
+    <?php include "./includes/footer.php"; ?>
+
     <!-- content - end -->
 
-    <footer>
-        <div class="footerline widthwrapper">
-            <div class="contentwrapper">
-                <div class="footercontent">
-                    <p>&copy
-                        <i>Nyolczas István
-                            <span id="year"></span></i>
-                    </p>
-
-                    <a href="tel:+36703258987"><i class="fas fa-phone-square"></i> +36 70 325 8987</a>
-
-                    <a href="mailto:nyolczas@gmail.com"> <i class="fas fa-envelope"></i> nyolczas@gmail.com</a>
-
-                    <a href="https://github.com/Nyolczas" target="_blank"><i class="fab fa-github"></i></a>
-
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <script src="js/menu.js"></script>

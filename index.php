@@ -51,8 +51,8 @@
                     Gyakorlott programozó vagyok, a frontend webfejlesztésre specializálódtam.
                 </p>
                 <p>
-                    Küldetésem, hogy művészi látásmódomat és technikai tudásomat felhasználva, 
-                    a munkáim által kicsit szebbé és jobbá tegyem a világot.
+                    Küldetésem, hogy programozói tudásomat és művészi látásmódomat felhasználva, 
+                    a munkáim által szebbé és jobbá tegyem a világot.
                 </p>
             </div>
 
@@ -91,28 +91,9 @@
         </section>
     </main>
 
+    <?php include "./includes/footer.php"; ?>
+
     <!-- content - end -->
-
-    <footer>
-        <div class="footerline widthwrapper">
-            <div class="contentwrapper">
-                <div class="footercontent">
-                    <p>&copy
-                        <i>Nyolczas István
-                            <span id="year"></span></i>
-                    </p>
-
-                    <a href="tel:+36703258987"><i class="fas fa-phone-square"></i> +36 70 325 8987</a>
-
-                    <a href="mailto:nyolczas@gmail.com"> <i class="fas fa-envelope"></i> nyolczas@gmail.com</a>
-
-                    <a href="https://github.com/Nyolczas" target="_blank"><i class="fab fa-github"></i></a>
-
-                </div>
-            </div>
-        </div>
-    </footer>
-
 
     <script src="js/menu.js"></script>
 
